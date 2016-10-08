@@ -96,10 +96,10 @@ var messages = [
     "Annyeong! Really, really good goodbye.",
     "Goodbye, Space Cowboy. See you on the other side, Coop."
 ];
+
 var ABetterConsole = function() {
     var AAGGParadiseInPhuket;
     var HarvardAcceptanceLetterArrival;
-	console.log("Good things (or easter eggs) come to those who wait :^)");
 
     if (mina++ < messages.length) {
 		car += 1;
@@ -111,7 +111,7 @@ var ABetterConsole = function() {
             HarvardAcceptanceLetterArrival = 1000 + AAGGParadiseInPhuket.length * 50;
         }
     }
-    if (car === messages.length){
+    if (car === messages.length) {
         setTimeout(function() {throw Error("Ijeneun annyeong. Really, really good goodbye.")}, 5000);
     }
     else {
@@ -120,4 +120,5 @@ var ABetterConsole = function() {
     }
 };
 
+console.log("Good things (or easter eggs) come to those who wait :^)");
 setTimeout(ABetterConsole, 19000);
