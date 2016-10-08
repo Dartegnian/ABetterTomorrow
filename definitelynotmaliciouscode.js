@@ -25,7 +25,7 @@ var messages = [
     "Anyways, what are you doing here?",
     "Are you a developer, too?",
     "If (ThatsTheCase == true) {",
-	"Message.Show(\"Feel free to look around!\");",
+	"	Message.Show(\"Feel free to look around!\");",
 	"}",
     "Just don't mess with any of my code, haha.",
 	"Or, you know, any part of the blog itself.",
