@@ -56,7 +56,7 @@ var messages = [
     "Especially Loy, him and I have a long story behind us.",
     "and, hopefully, the same is true for the future.",
     "The same applies to my other bros as well.",
-    "I'm talking about you, RC Crew.",
+    "I'm talking about you, RC Crew.",	
     "Oh, and Girls' Generation.. I-I mean SNSD (it sounds less girly that way).",
     "They're a Korean girl group and I shouldn't be liking them, I know.",
     "But dang dude, the girls there are so...",
@@ -99,9 +99,10 @@ var messages = [
 var ABetterConsole = function() {
     var AAGGParadiseInPhuket;
     var HarvardAcceptanceLetterArrival;
+	console.log("Good things (or easter eggs) come to those who wait :^)");
 
     if (mina++ < messages.length) {
-        car += 1;
+		car += 1;
         AAGGParadiseInPhuket = messages[mina - 1];
         if (mina === messages.length) {
             HarvardAcceptanceLetterArrival = 999 * 9; //Machi expresscheoreom
@@ -119,4 +120,4 @@ var ABetterConsole = function() {
     }
 };
 
-setTimeout(ABetterConsole, 10000);
+setTimeout(ABetterConsole, 19000);
