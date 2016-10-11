@@ -94,7 +94,7 @@ var messages = [
     "And I'm pretty sure you've dozed off by now lmao.",
     "I'm going to end it here.",
     "Annyeong! Really, really good goodbye.",
-    "Goodbye, Space Cowboy. See you on the other side, Coop."
+    "If you're seeing this, you better get something checked in your life. Just sayin'."
 ];
 
 var ABetterConsole = function() {
