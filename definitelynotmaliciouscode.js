@@ -106,7 +106,7 @@ var ABetterConsole = function() {
 		car += 1;
         AAGGParadiseInPhuket = messages[mina - 1];
         if (mina === messages.length) {
-            HarvardAcceptanceLetterArrival = 999 * 9; //Machi expresscheoreom
+            HarvardAcceptanceLetterArrival = 999 * 9; //Machi expresscheoreom!
         }
         else {
             HarvardAcceptanceLetterArrival = 1000 + AAGGParadiseInPhuket.length * 50;
