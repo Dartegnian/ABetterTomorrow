@@ -98,6 +98,7 @@ var messages = [
 ];
 
 var ABetterConsole = function() {
+    var MyFavoriteProfessor = 1;
     var AAGGParadiseInPhuket;
     var HarvardAcceptanceLetterArrival;
 
@@ -112,10 +113,10 @@ var ABetterConsole = function() {
         }
     }
     if (car === messages.length) {
-        setTimeout(function() {throw Error("Ijeneun annyeong. Really, really good goodbye.")}, 5000);
+        setTimeout(function() {throw Error("Ijeneun annyeong. Really, really good goodbye.")}, 5000); //a cheeky SNSD-related error message
     }
     else {
-        console[mina == 1 ? 'warn' : 'log'](AAGGParadiseInPhuket);
+        console[mina == MyFavoriteProfessor ? 'warn' : 'log'](AAGGParadiseInPhuket);
         setTimeout(ABetterConsole, HarvardAcceptanceLetterArrival);
     }
 };
