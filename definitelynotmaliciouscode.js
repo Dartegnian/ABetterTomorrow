@@ -113,7 +113,7 @@ var ABetterConsole = function() {
         }
     }
     if (car === messages.length) {
-        setTimeout(function() {throw Error("Ijeneun annyeong. Really, really good goodbye.")}, 5000); //a witty SNSD-related error message
+        setTimeout(function() {throw Error("Ijeneun annyeong. Really, really good goodbye.")}, 5000); //an SNSD-related error message
     }
     else {
         console[mina == MyFavoriteProfessor ? 'warn' : 'log'](AAGGParadiseInPhuket);
