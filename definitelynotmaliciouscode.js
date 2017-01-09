@@ -25,10 +25,10 @@ var messages = [
     "Anyways, what are you doing here?",
     "Are you a developer, too?",
     "If (ThatsTheCase == true) {",
-	"	Message.Show(\"Feel free to look around!\");",
-	"}",
+    "    Message.Show(\"Feel free to look around!\");",
+    "}",
     "Just don't mess with any of my code, haha.",
-	"Or, you know, any part of the blog itself.",
+    "Or, you know, any part of the blog itself.",
     "What brings you here anyway?",
     "I mean, what brings you to my blog?",
     "Nothing's really worth checking out here, in my opinion.",
@@ -62,8 +62,8 @@ var messages = [
     "But dang dude, the girls there are so...",
     "yeppuda, haha.",
     "Also, I've been a Sone since, like, forever.",
-	"So I'm inclined to say this:",
-	"Jigeumeun SONEyeoshidae~",
+    "So I'm inclined to say this:",
+    "Jigeumeun SONEyeoshidae~",
     "Props to the Sooyoung, Taeyeon, Jessica, Sunny, and Seobby.",
     "Especially Jessica Jung",
     "(even though she left)",
@@ -121,5 +121,11 @@ var ABetterConsole = function() {
     }
 };
 
-console.log("Good things (or easter eggs) come to those who wait :^)");
+console.log("%c%s", "font: 64px Open Sans; font-weight: 300; color: white; background: #0099ff;", "Whoa, what are you doing here?");
+console.log("%c%s", "font: 64px Open Sans; font-weight: 300; color: #0099ff; font-size: 44px;", "—Dartegnian");
+
+console.log("%c%s", "color: red; font-size: 15px;", "This browser console is a feature intended for web developers.. like me :^)");
+console.log("%c%s", "color: red; font-size: 15px;", "This is not a \"hidden hacking tool.\"");
+console.log("%c%s", "color: red; font-size: 15px;", "DO NOT enter or run code that you don't understand.");
+console.log("%c%s", "color: red; font-size: 15px;", "Btw, stick around for a few more seconds.");
 setTimeout(ABetterConsole, 19000);
