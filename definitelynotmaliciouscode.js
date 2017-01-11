@@ -93,7 +93,7 @@ var messages = [
     "I don't want to leave APC disliking anyone in my block.",
     "Shout out to my gaming buddies",
     "James Baldelomar",
-    "Joshua Morales (damn hacker)",
+    "Joshua Morales (damn hacker, I still can't believe he's good at CS:GO)",
     "Jordan Fernandez",
     "Brian Olores",
     "JR Pasaoa",
