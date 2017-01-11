@@ -166,7 +166,7 @@ var messages = [
     "I also love the game you sent me. It's pretty cool and",
     "it looks 1000x better than any RPGs I've seen.",
     "Both in story, looks, and sound.",
-    "I hope you may continue working on that way or do well in another upcoming game.",
+    "I hope you may continue working on that game or do well in another upcoming game.",
     "I'm awe-inspired because I've never known game developer before with a game that great.",
     "Oh, definitely my Big Sister Elaine. (Yes, I know I shouldn't capitalize \"big sister\")",
     "(But I often do because she's special.)",
