@@ -123,7 +123,7 @@ var messages = [
     "I'm just supper happy to be with you all, ever since Day 1 with Miss Minglana.",
     "Hey, at least I won't leave APC knowing that I'm that shy, weird guy who doesn't talk to anyone.",
     "(Because that's who I was in high school.)",
-    "Despite not being able to meet you soon..",
+    "Despite not being able to meet you all soon..",
     "I'll always keep you all in my memory.",
     "(Ew, cheezy stuff.)",
     "But seriously",
