@@ -80977,11 +80977,6 @@ function executeCommand(){
         writeResponse("Microsoft Windows");
         writeResponse("<span class='syg'>Version 1607 (OS Build 14393)</span>");
         writePrompt();
-    } else if(command.indexOf("help") == 0){
-        writeResponse("<span class='syg'>List of help commands</span>");
-        writeResponse("<span class='highlight'>help 1</span>");
-        writeResponse("<span class='highlight'>help 2</span>");
-        writePrompt();
     } else if(command.indexOf("list users") == 0){
         writeResponse("<span class='syg'>Dartegnian | LOGGED IN</span>");
         writeResponse("<span class='highlight'>PatPangilinan</span>");
@@ -80997,20 +80992,15 @@ function executeCommand(){
         } else if(element.webkitRequestFullScreen) {
           element.webkitRequestFullScreen();
         }
-      }
+      }//
       writeResponse("<span class='syg'>I am now in full screen.</span>");
       writePrompt();
-    } else if(command.indexOf("help 1") == 0){
-        writeResponse("<span class='syg' style='font-weight: bold;'>ls</span>: I'll list the items in the current directory.");
-        writeResponse("<span class='syg' style='font-weight: bold;'>cd</span>: I'll go to your selected directory.");
-        writeResponse("<span class='syg' style='font-weight: bold;'>ver</span>: I'll display my current version.");
-        writeResponse("<span class='syg' style='font-weight: bold;'>run</span>: Make me run a selected program.");
-        writeResponse("<span class='syg' style='font-weight: bold;'>echo</span>: Makes me echo what you typed.");
-        writeResponse("<span class='syg' style='font-weight: bold;'>whoami</span>: See who you're logged in as.");
-        writeResponse("<span class='syg' style='font-weight: bold;'>do you know</span>: A \"do you know\" test :)");
-        writeResponse("Type <span class='syg' style='font-weight: bold;'>help 2</span> to see more of my functions.");
+    } else if(command.indexOf("hello") == 0){
+        writeResponse("Hello, I am a <span class='syg' style='font-weight: bold;'>J.E.S.S.I.C.A</span>");
+        writeResponse("I am a web prompt and I have no purpose yet.");
+        writeResponse("I'm still in beta, so I don't have a lot of features.. yet.");
         writePrompt();
-    } else if(command.indexOf("help 2") == 0){
+    } else if(command.indexOf("help") == 0){
         writeResponse("<span class='syg' style='font-weight: bold;'>ls</span>: I'll list the items in the current directory.");
         writeResponse("<span class='syg' style='font-weight: bold;'>cd</span>: I'll go to your selected directory.");
         writeResponse("<span class='syg' style='font-weight: bold;'>ver</span>: I'll display my current version.");
