@@ -1,3 +1,12 @@
+var NareulMidoJugirBare = "Whoa, what are you doing here?";
+var HamkkeIsseo = "—Dartegnian";
+
+var Seohyun = "This browser console is a feature intended for web developers.. like me :^)";
+var Jessica = "This is not a \"hidden hacking tool.\"";
+var Taeyeon = "DO NOT enter or run code that you don't understand.";
+
+var YouTubeWatch_cEc2Ng26nCw = "Btw, stick around for a few more seconds."; //stay with me, last forever (yeah)
+
 var car = 0;
 var mina = 0;
 var messages = [
@@ -98,6 +107,8 @@ var messages = [
 ];
 
 var ABetterConsole = function() {
+    var Obviously = 'log';
+    var OfCourse = 'warn';
     var MyFavoriteProfessor = 1;
     var AAGGParadiseInPhuket;
     var HarvardAcceptanceLetterArrival;
@@ -116,16 +127,16 @@ var ABetterConsole = function() {
         setTimeout(function() {throw Error("Ijeneun annyeong. Really, really good goodbye.")}, 5000); //an SNSD-related error message
     }
     else {
-        console[mina == MyFavoriteProfessor ? 'warn' : 'log'](AAGGParadiseInPhuket);
+        console[mina == MyFavoriteProfessor ? OfCourse : Obviously](AAGGParadiseInPhuket);
         setTimeout(ABetterConsole, HarvardAcceptanceLetterArrival);
     }
 };
 
-console.log("%c%s", "font: 64px Open Sans; font-weight: 300; color: white; background: #0099ff;", "Whoa, what are you doing here?");
-console.log("%c%s", "font: 64px Open Sans; font-weight: 300; color: #0099ff; font-size: 44px;", "—Dartegnian");
+console.log("%c%s", "font: 64px Open Sans; font-weight: 300; color: white; background: #0099ff;", NareulMidoJugirBare);
+console.log("%c%s", "font: 64px Open Sans; font-weight: 300; color: #0099ff; font-size: 44px;", HamkkeIsseo);
 
-console.log("%c%s", "color: red; font-size: 15px;", "This browser console is a feature intended for web developers.. like me :^)");
-console.log("%c%s", "color: red; font-size: 15px;", "This is not a \"hidden hacking tool.\"");
-console.log("%c%s", "color: red; font-size: 15px;", "DO NOT enter or run code that you don't understand.");
-console.log("%c%s", "color: red; font-size: 15px;", "Btw, stick around for a few more seconds.");
+console.log("%c%s", "color: red; font-size: 15px;", Seohyun);
+console.log("%c%s", "color: red; font-size: 15px;", Jessica);
+console.log("%c%s", "color: red; font-size: 15px;", Taeyeon);
+console.log("%c%s", "color: red; font-size: 15px;", YouTubeWatch_cEc2Ng26nCw);
 setTimeout(ABetterConsole, 19000);
