@@ -71,6 +71,7 @@ var messages = [
     "Nicole Lopez",
     "Nathan Melad",
     "Rene Valguna",
+    "Hugo Dimaranan",
     "JR Pasaoa",
     "Andrey Buzon",
     "John Bautista",
