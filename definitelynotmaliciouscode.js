@@ -106,6 +106,8 @@ var messages = [
     "I want to say thanks to James, he's been a great gaming friend.",
     "That guy introduced me to Titan, Viggo, RoG, and a lot of new places.",
     "I laughed at that one time he got called out for hitting the mouse too hard.",
+    "Also to Joshua, he let us play Xbox at his house.",
+    "You guys still can't beat me in Tekken 6 when I'm using Alisa :^)",
     "Oy Paswa ibigay mo yung bomba sakin para maka-MVP ako haha.",
     "Natawa siguro kayo ng sobra nung natapilok ako nung papunta ng Viggo.",
     "Badtrip yung araw na yun, haha.",
