@@ -86,7 +86,7 @@ var messages = [
     "But seriously, I didn't expect that the people who I didn't talk to much",
     "Were the ones who cared for me the most.",
     "Justin, jeez man, the amount of help you give me is a lot.",
-    "I wish I can help you in one way or another",
+    "I wish I can help you in one way or another.",
     "I'm sorry to Samantha for almost always being annoying to her",
     "And to Nathan as well, even though I was mean to him before.",
     "He can be a little weird at times, but he's a cool lad, he cooks great French toast.",
