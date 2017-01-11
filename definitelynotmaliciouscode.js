@@ -172,8 +172,6 @@ var messages = [
     "A HUGE SHOUTOUT to ALL of the people who've helped me when my days got rough!",
     "Andrea, I've never met you in real life and I didn't get to talk to you much at school.",
     "But, damn, you really know how to cheer me up, haha.",
-    "If you're reading this, we should totally hang out sometime.",
-    "My treat lmao.",
     "Ate Betina, the girl who's helped me when I was feeling down at the library.",
     "You were the one who taught me how to not get pushed around and get used by others.",
     "I appreciate you SO MUCH for telling me that.",
