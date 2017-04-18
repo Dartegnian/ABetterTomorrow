@@ -5,7 +5,7 @@ var Seohyun = "This browser console is a feature intended for web developers.. l
 var Jessica = "This is not a \"hidden hacking tool.\"";
 var Taeyeon = "DO NOT enter or run code that you don't understand.";
 
-var YouTubeWatch_cEc2Ng26nCw = "Btw, stick around for a few more seconds."; //stay with me, last forever (yeah)
+var YouTubeWatch_1a9vyHLxKzs = "Btw, stick around for a few more seconds."; //stay with me, last forever (yeah)
 
 var car = 0;
 var mina = 0;
