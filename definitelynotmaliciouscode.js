@@ -242,5 +242,5 @@ console.log("%c%s", "font: 44px Open Sans, Segoe UI Light, sans-serif; font-weig
 console.log("%c%s", "color: red; font-size: 15px;", Seohyun);
 console.log("%c%s", "color: red; font-size: 15px;", Jessica);
 console.log("%c%s", "color: red; font-size: 15px;", Taeyeon);
-console.log("%c%s", "color: red; font-size: 15px;", YouTubeWatch_cEc2Ng26nCw);
+console.log("%c%s", "color: red; font-size: 15px;", YouTubeWatch_1a9vyHLxKzs);
 setTimeout(ABetterConsole, 19000);
