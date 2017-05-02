@@ -2,7 +2,7 @@ var NareulMidoJugirBare = "Whoa, what are you doing here?";
 var HamkkeIsseo = "—Dartegnian";
 
 var Seohyun = "This browser console is a feature intended for web developers.. like me :^)";
-var Jessica = "This is not a \"hidden hacking tool.\"";
+var Jessica = "This is not a \"hidden hacking tool\" nor are these \"cyber police options.\"";
 var Taeyeon = "DO NOT enter or run code that you don't understand.";
 
 var YouTubeWatch_1a9vyHLxKzs = "Btw, stick around for a few more seconds."; //stay with me, last forever (yeah)
@@ -26,7 +26,7 @@ var messages = [
     "I've recently decided to make a Tinder profile.",
     "Now, hear me out.",
     "I'm NOT there to find someone to have casual sex with.",
-    "NOR a fubu.",
+    "NOR a fubu, nor a fwb, nor an nsa (no strings attached) friend.",
     "I'm desperate, but not THAT desperate.",
     "The reason I made a Tinder profile was to meet new people.",
     "And, maybe, find \"the one\"",
