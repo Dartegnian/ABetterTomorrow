@@ -118,7 +118,7 @@ var messages = [
 	"but I've got friends",
 	"so I got through it.",
 	"And, because they deserved it, I personally would like to thank, from the bottom of my heart",
-	"these awesome blockmates for having helped me during tough times:",
+	"these awesome blockmates for having helped me during tough times, in no particular order:",
 	"Justin Parado",
 	"Nicole Lopez",
 	"Nathan Melad",
