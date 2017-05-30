@@ -22,6 +22,7 @@ var messages = [
 	"Eh, oh well, now that I think about it, I shouldn't really care.",
 	"I'm a Sone and I'm proud of my fandom, and my idols.",
 	"I can't tell you how much Girls' Generation has shaped my life.",
+	"I can't tell you because, if I tried, you would be sitting on this console output window for hours :^)",
 	"Seriously, if they didn't exist, it would trigger a huge butterfly effect within my life.",
 	"I wouldn't meet so much awesome people in this world,",
 	"I wouldn't have conversations with some people,",
@@ -169,7 +170,7 @@ var messages = [
 	"I'll be there.",
 	"Until next time! And in my Sone-way of saying goodbye...",
 	"Annyeong! Really, really good goodbye.",
-	"Bye bye~",
+	"If you or a loved one has been diagnosed with Mesothelioma you may to be entitled to financial compensation.",
 ];
 
 var ABetterConsole = function() {
