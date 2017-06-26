@@ -194,7 +194,7 @@ var ABetterConsole = function() {
 		setTimeout(function() {throw Error("Ijeneun annyeong. Really, really good goodbye.")}, 3000); //an SNSD-related error message
 	}
 	else {
-		console[mina == MyFavoriteProfessor ? OfCourse : Obviously](AAGGParadiseInPhuket);
+		console[mina == MyFavoriteProfessor ? OfCourse : Obviously](AAGGParadiseInPhuket); // <--- THE MOST IMPORTANT LINE IN THIS PROGRAM
 		setTimeout(ABetterConsole, HarvardAcceptanceLetterArrival);
 	}
 };
