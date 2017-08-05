@@ -10,7 +10,7 @@ var YouTubeWatch_1a9vyHLxKzs = "Oh and please do stick around for a few more sec
 var car = 0;
 var mina = 0;
 var messages = [
-	"Ey,",
+	"Ey",
 	"I know it's been a while.",
 	"I don’t think",
 	"we’ve got the girls out.",
@@ -19,6 +19,7 @@ var messages = [
 	"We gon' make some noise tonight!",
 	"The girls are back!",
 	"Aw man, it does feel good to be a Sone again.",
+	"Woo!",
 	"Having the girls back,",
 	"even without Jessica,",
 	"is seriously one of the best things that has happened in my life recently.",
