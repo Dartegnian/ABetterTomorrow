@@ -2,8 +2,8 @@ var NareulMidoJugirBare = "Whoa, what are you doing here?";
 var HamkkeIsseo = "—Dartegnian";
 
 var Seohyun = "This browser console is a feature intended for web developers.. like me :^)";
-var Jessica = "This is not a \"hidden hacker's tool\" nor are these \"cyber police options.\"";
-var Taeyeon = "DO NOT enter or run code that you don't understand.";
+var Jessica = "This is not a \"hidden hacker tool\" nor are these \"cyber police options.\"";
+var Taeyeon = "DO NOT enter nor run code that you don't understand.";
 
 var YouTubeWatch_1a9vyHLxKzs = "Oh and please do stick around for a few more seconds."; //stay with me, last forever (yeah)
 
