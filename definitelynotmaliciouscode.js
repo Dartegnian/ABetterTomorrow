@@ -10,7 +10,6 @@ var YouTubeWatch_1a9vyHLxKzs = "Oh and please do stick around for a few more sec
 var car = 0;
 var mina = 0;
 var messages = [
-<<<<<<< HEAD
 	"Ey,",
 	"I know it's been a while.",
 	"I don’t think",
@@ -215,8 +214,8 @@ var ABetterConsole = function() {
 	}
 };
 
-console.log("%c%s", "font: 44px Open Sans, Segoe UI Light, sans-serif; font-weight: 300; color: white; background: #0099ff;", NareulMidoJugirBare);
-console.log("%c%s", "font: 44px Open Sans, Segoe UI Light, sans-serif; font-weight: 300; color: #0099ff; font-size: 44px;", HamkkeIsseo);
+console.log("%c%s", "font: 44px Open Sans, 'Segoe UI', Helvetica, Arial, sans-serif; font-weight: 300; color: white; background: #0099ff;", NareulMidoJugirBare);
+console.log("%c%s", "font: 44px Open Sans, 'Segoe UI', Helvetica, Arial, sans-serif; font-weight: 300; color: #0099ff; font-size: 44px;", HamkkeIsseo);
 
 console.log("%c%s", "color: red; font-size: 15px;", Seohyun);
 console.log("%c%s", "color: red; font-size: 15px;", Jessica);
