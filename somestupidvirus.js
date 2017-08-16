@@ -49,7 +49,7 @@ function HelloSoshi() {
 
             mistake = setInterval(function() {
                 document.title = howgreatisyourlove[Math.floor(Math.random() * howgreatisyourlove.length)];
-            }, 7000);
+            }, 9000);
         });
 
         $(window).on('focus', function () {
