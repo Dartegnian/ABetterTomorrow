@@ -1,3 +1,4 @@
+// first few messages
 var NareulMidoJugirBare = "Whoa, what are you doing here?";
 var HamkkeIsseo = "—Dartegnian";
 
@@ -7,6 +8,46 @@ var Taeyeon = "DO NOT enter nor run code that you don't understand.";
 
 var YouTubeWatch_1a9vyHLxKzs = "Oh and please do stick around for a few more seconds."; //stay with me, last forever (yeah)
 
+// outputs to console
+console.log("%c%s", "font: 44px 'Segoe UI', Helvetica, Open Sans, Arial, sans-serif; font-weight: 300; color: white; background: #0099ff;", NareulMidoJugirBare);
+console.log("%c%s", "font: 44px 'Segoe UI', Helvetica, Open Sans, Arial, sans-serif; font-weight: 300; color: #0099ff; font-size: 44px;", HamkkeIsseo);
+
+console.log("%c%s", "color: red; font-size: 15px;", Seohyun);
+console.log("%c%s", "color: red; font-size: 15px;", Jessica);
+console.log("%c%s", "color: red; font-size: 15px;", Taeyeon);
+console.log("%c%s", "color: red; font-size: 15px;", YouTubeWatch_1a9vyHLxKzs);
+
+// initializer, run ABetterConsole function after 19 seconds
+setTimeout(ABetterConsole, 19000);
+
+// main script code
+var ABetterConsole = function() {
+	var Obviously = 'log';
+	var OfCourse = 'warn';
+	var MyFavoriteProfessor = 1;
+	var AAGGParadiseInPhuket;
+	var HarvardAcceptanceLetterArrival;
+
+	if (mina++ < messages.length) {
+		car += 1;
+		AAGGParadiseInPhuket = messages[mina - 1];
+		if (mina === messages.length) {
+			HarvardAcceptanceLetterArrival = 999 * 9; //Machi expresscheoreom!
+		}
+		else {
+			HarvardAcceptanceLetterArrival = 1000 + AAGGParadiseInPhuket.length * 50;
+		}
+	}
+	if (car === messages.length) {
+		setTimeout(function() {throw Error("Ijeneun annyeong. Really, really good goodbye.")}, 3000); //an SNSD-related error message
+	}
+	else {
+		console[mina == MyFavoriteProfessor ? OfCourse : Obviously](AAGGParadiseInPhuket); // <--- THE MOST IMPORTANT LINE IN THIS PROGRAM
+		setTimeout(ABetterConsole, HarvardAcceptanceLetterArrival);
+	}
+};
+
+//main message script
 var car = 0;
 var mina = 0;
 var messages = [
@@ -18,7 +59,7 @@ var messages = [
 	"We gon' break some hearts tonight!",
 	"We gon' make some noise tonight!",
 	"The girls are back!",
-	"Aw man, it does feel good to be a Sone again.",
+	"Aw man, it does feel good to be a SONE again.",
 	"Woo!",
 	"Having the girls back,",
 	"even without Jessica,",
@@ -49,7 +90,7 @@ var messages = [
 	"Some lines from \"Light up the Sky\" also apply to Elaine.",
 	"...",
 	"I miss Elaine.",
-	"I'm happy because of SNSD's 10th anniversary comeback, being a Sone again, and all that.",
+	"I'm happy because of SNSD's 10th anniversary comeback, being a SONE again, and all that.",
 	"But this comeback..",
 	"I don't know, it just feels empty without Elaine.",
 	"The last time I was with her and SNSD released something new",
@@ -184,42 +225,7 @@ var messages = [
 	"That's all. I have to say goodbye now. I hope you had fun reading as much as I did writing.",
 	"Feel free to leave a comment or talk to me, if ever.",
 	"I'll be there.",
-	"Until next time! And in my Sone-way of saying goodbye...",
+	"Until next time! And in my SONE-way of saying goodbye...",
 	"Annyeong! Really, really good goodbye.",
 	"If you or a loved one has been diagnosed with Mesothelioma you may to be entitled to financial compensation.",
 ];
-
-var ABetterConsole = function() {
-	var Obviously = 'log';
-	var OfCourse = 'warn';
-	var MyFavoriteProfessor = 1;
-	var AAGGParadiseInPhuket;
-	var HarvardAcceptanceLetterArrival;
-
-	if (mina++ < messages.length) {
-		car += 1;
-		AAGGParadiseInPhuket = messages[mina - 1];
-		if (mina === messages.length) {
-			HarvardAcceptanceLetterArrival = 999 * 9; //Machi expresscheoreom!
-		}
-		else {
-			HarvardAcceptanceLetterArrival = 1000 + AAGGParadiseInPhuket.length * 50;
-		}
-	}
-	if (car === messages.length) {
-		setTimeout(function() {throw Error("Ijeneun annyeong. Really, really good goodbye.")}, 3000); //an SNSD-related error message
-	}
-	else {
-		console[mina == MyFavoriteProfessor ? OfCourse : Obviously](AAGGParadiseInPhuket); // <--- THE MOST IMPORTANT LINE IN THIS PROGRAM
-		setTimeout(ABetterConsole, HarvardAcceptanceLetterArrival);
-	}
-};
-
-console.log("%c%s", "font: 44px Open Sans, 'Segoe UI', Helvetica, Arial, sans-serif; font-weight: 300; color: white; background: #0099ff;", NareulMidoJugirBare);
-console.log("%c%s", "font: 44px Open Sans, 'Segoe UI', Helvetica, Arial, sans-serif; font-weight: 300; color: #0099ff; font-size: 44px;", HamkkeIsseo);
-
-console.log("%c%s", "color: red; font-size: 15px;", Seohyun);
-console.log("%c%s", "color: red; font-size: 15px;", Jessica);
-console.log("%c%s", "color: red; font-size: 15px;", Taeyeon);
-console.log("%c%s", "color: red; font-size: 15px;", YouTubeWatch_1a9vyHLxKzs);
-setTimeout(ABetterConsole, 19000);
