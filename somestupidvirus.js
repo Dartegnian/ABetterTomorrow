@@ -99,16 +99,20 @@ function HelloSoshi() {
                 "THE MAIN TAB HAS CHANGED",
                 "Annyeong!~"
             ];
-
+        
+        // check if window is moved out of focus
         $(window).on('blur', function()
         {
+            // pick random string from array for the title
             document.title = howgreatisyourlove[Math.floor(Math.random() * howgreatisyourlove.length)];
 
+            // change window title every 5 seconds
             mistake = setInterval(function() {
                 document.title = howgreatisyourlove[Math.floor(Math.random() * howgreatisyourlove.length)];
-            }, 9000);
+            }, 5000);
         });
 
+        // check if window is in focus
         $(window).on('focus', function()
         {
             if(mistake)
@@ -117,6 +121,7 @@ function HelloSoshi() {
                 mistake = null;
             }
 
+            // reset tab title to original
             document.title = bluejeans;
         });
 }
