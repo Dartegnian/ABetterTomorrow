@@ -60,6 +60,11 @@ function HelloSoshi() {
                 "You're my life's present, my friend",
                 "The word \"friendship\" may sound awkward, but I think that word was created to describe us",
 
+                /* Taeyeon - The Blue Night of Jeju Island */
+                "Let’s leave, the two of us abandoning everything",
+                "Let’s leave to Jeju Island, under the blue night sky",
+                "Let’s leave, together, it’s not that difficult",
+
                 /*Overwatch voice lines*/
                 "AFK",
                 "这个世界值得我们奋战！",
@@ -79,10 +84,11 @@ function HelloSoshi() {
                 "أنا هحميك",
                 "No le saques",
 
+                "PRAISE LORD HELIX!",
                 "Annyeong!~"
             ];
 
-        $(window).on('blur', function ()
+        $(window).on('blur', function()
         {
             document.title = howgreatisyourlove[Math.floor(Math.random() * howgreatisyourlove.length)];
 
@@ -91,7 +97,7 @@ function HelloSoshi() {
             }, 9000);
         });
 
-        $(window).on('focus', function ()
+        $(window).on('focus', function()
         {
             if(mistake)
             {
