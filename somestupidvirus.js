@@ -40,6 +40,14 @@ function HelloSoshi() {
                 "Is my hurt heart healing a little?",
                 "If I wait again, if I go again, will we be together?",
                 "I'm okay because I have you",
+                
+                /* Taeyeon - Lonely Night */
+                "It’s time I get used to it",
+                "But the night is so long, I can’t fall asleep",
+                "What are you doing right now?",
+                "I wanna go someplace unfamiliar",
+                "I know, that you’re not here",
+                "I’m sick of lonely nights",
 
                 /* Girls' Generation - My Best Friend */
                 "Alright, let's make a promise. You are my best friend.",
