@@ -65,6 +65,14 @@ function HelloSoshi() {
                 "Let’s leave to Jeju Island, under the blue night sky",
                 "Let’s leave, together, it’s not that difficult",
 
+                /* Jackson 5 - I Want You Back */
+                "When I had you to myself, I didn't want you around",
+                "Oh baby, give me one more chance",
+                "Won't you please let me back in your heart",
+                "Oh darlin', I was blind to let you go",
+                "I want you back",
+                "Trying to live without your love is one long sleepless night",
+
                 /*Overwatch voice lines*/
                 "AFK",
                 "这个世界值得我们奋战！",
@@ -85,6 +93,10 @@ function HelloSoshi() {
                 "No le saques",
 
                 "PRAISE LORD HELIX!",
+                "I am Groot",
+                "Wew lad",
+                "And why did you click off",
+                "THE MAIN TAB HAS CHANGED",
                 "Annyeong!~"
             ];
 
