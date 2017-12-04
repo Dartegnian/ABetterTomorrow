@@ -229,4 +229,4 @@ var messages =
 ];
 
 // initializer, run ABetterConsole function after 19 seconds
-setTimeout(ABetterConsole, 1000);
+setTimeout(ABetterConsole, 19000);
