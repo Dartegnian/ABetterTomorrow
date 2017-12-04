@@ -1,7 +1,18 @@
+/**
+* Code "borrowed" from somewhere else.
+* Even I think this is a little immature, but
+* I like SNSD references anyway, so I squeezed
+* this little thing here just for laughs and
+* stuff.
+* It's my personal site/blog anyway, I can do
+* whatever I want with it. But yeah, I think
+* this is a little immature, even for me.
+*/
+
 function HelloSoshi() {
-        var mistake = null,
-            bluejeans = document.title,
-            howgreatisyourlove = [
+        var mistake = null;
+        var bluejeans = document.title;
+        var howgreatisyourlove = [
                 /* Seohyun - I'll Wait For You */
                 "I can't be seen, my words can't be heard",
                 "But I am here, I will be waiting for you",
@@ -44,7 +55,8 @@ function HelloSoshi() {
                 'Annyeong!~'
             ];
 
-        $(window).on('blur', function () {
+        $(window).on('blur', function ()
+        {
             document.title = howgreatisyourlove[Math.floor(Math.random() * howgreatisyourlove.length)];
 
             mistake = setInterval(function() {
@@ -52,8 +64,10 @@ function HelloSoshi() {
             }, 9000);
         });
 
-        $(window).on('focus', function () {
-            if(mistake) {
+        $(window).on('focus', function ()
+        {
+            if(mistake)
+            {
                 clearInterval(mistake);
                 mistake = null;
             }
@@ -61,4 +75,6 @@ function HelloSoshi() {
             document.title = bluejeans;
         });
 }
+
+//initializes code 
 $(document.body).ready(HelloSoshi());
