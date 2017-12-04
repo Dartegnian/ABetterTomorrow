@@ -60,7 +60,26 @@ function HelloSoshi() {
                 "You're my life's present, my friend",
                 "The word \"friendship\" may sound awkward, but I think that word was created to describe us",
 
-                'Annyeong!~'
+                /*Overwatch voice lines*/
+                "AFK",
+                "这个世界值得我们奋战！",
+                "You have to let it go",
+                "I'm not a miracle worker. Well, not always.",
+                "Take two and call me in the morning",
+                "Do You Need A Hug?",
+                "Play Nice, Play Pharah",
+                "Welcome to my reality",
+                "Everything by design",
+                "People always underestimate the engineers",
+                "Peace and blessings be upon you all",
+                "Hello, world!",
+                "替え玉!",
+                "Would you like the sponge or the spray?",
+                "Hard work and dedication pays off",
+                "أنا هحميك",
+                "No le saques",
+
+                "Annyeong!~"
             ];
 
         $(window).on('blur', function ()
