@@ -18,7 +18,8 @@ console.log("%c%s", "color: red; font-size: 15px;", Taeyeon);
 console.log("%c%s", "color: red; font-size: 15px;", YouTubeWatch_1a9vyHLxKzs);
 
 // main script code
-var ABetterConsole = function() {
+var ABetterConsole = function()
+{
 	var Obviously = 'log';
 	var OfCourse = 'warn';
 	var MyFavoriteProfessor = 1;
