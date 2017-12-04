@@ -1,4 +1,4 @@
-// first few messages
+// initialize first messages
 var NareulMidoJugirBare = "Whoa, what are you doing here?";
 var HamkkeIsseo = "—Dartegnian";
 
@@ -8,7 +8,7 @@ var Taeyeon = "DO NOT enter nor run code that you don't understand.";
 
 var YouTubeWatch_1a9vyHLxKzs = "Oh and please do stick around for a few more seconds."; //stay with me, last forever (yeah)
 
-// outputs to console
+// outputs first messages
 console.log("%c%s", "font: 44px 'Segoe UI', Helvetica, Open Sans, Arial, sans-serif; font-weight: 300; color: white; background: #0099ff;", NareulMidoJugirBare);
 console.log("%c%s", "font: 44px 'Segoe UI', Helvetica, Open Sans, Arial, sans-serif; font-weight: 300; color: #0099ff; font-size: 44px;", HamkkeIsseo);
 
@@ -16,9 +16,6 @@ console.log("%c%s", "color: red; font-size: 15px;", Seohyun);
 console.log("%c%s", "color: red; font-size: 15px;", Jessica);
 console.log("%c%s", "color: red; font-size: 15px;", Taeyeon);
 console.log("%c%s", "color: red; font-size: 15px;", YouTubeWatch_1a9vyHLxKzs);
-
-// initializer, run ABetterConsole function after 19 seconds
-setTimeout(ABetterConsole, 19000);
 
 // main script code
 var ABetterConsole = function() {
@@ -50,7 +47,8 @@ var ABetterConsole = function() {
 //main message script
 var car = 0;
 var mina = 0;
-var messages = [
+var messages =
+[
 	"Ey",
 	"I know it's been a while.",
 	"I don’t think",
@@ -229,3 +227,6 @@ var messages = [
 	"Annyeong! Really, really good goodbye.",
 	"If you or a loved one has been diagnosed with Mesothelioma you may to be entitled to financial compensation.",
 ];
+
+// initializer, run ABetterConsole function after 19 seconds
+setTimeout(ABetterConsole, 1000);
