@@ -25,20 +25,20 @@ var ABetterConsole = function() {
 	var AAGGParadiseInPhuket;
 	var HarvardAcceptanceLetterArrival;
 
-	if (mina++ < messages.length) {
+	if (mina++ < messages.length)
+	{
 		car += 1;
 		AAGGParadiseInPhuket = messages[mina - 1];
-		if (mina === messages.length) {
+		if (mina === messages.length)
 			HarvardAcceptanceLetterArrival = 999 * 9; //Machi expresscheoreom!
-		}
-		else {
+		else
 			HarvardAcceptanceLetterArrival = 1000 + AAGGParadiseInPhuket.length * 50;
-		}
 	}
-	if (car === messages.length) {
+
+	if (car === messages.length)
 		setTimeout(function() {throw Error("Ijeneun annyeong. Really, really good goodbye.")}, 3000); //an SNSD-related error message
-	}
-	else {
+	else
+	{
 		console[mina == MyFavoriteProfessor ? OfCourse : Obviously](AAGGParadiseInPhuket); // <--- THE MOST IMPORTANT LINE IN THIS PROGRAM
 		setTimeout(ABetterConsole, HarvardAcceptanceLetterArrival);
 	}
