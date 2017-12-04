@@ -128,5 +128,5 @@ function HelloSoshi()
 	});
 }
 
-//initializes code 
+//initializes code
 $(document.body).ready(HelloSoshi());
