@@ -13,8 +13,8 @@ function HelloSoshi()
 {
 	var mistake = null;
 	var bluejeans = document.title;
-    var howgreatisyourlove =
-    [
+	var howgreatisyourlove =
+	[
 		/* Seohyun - I'll Wait For You */
 		"I can't be seen, my words can't be heard",
 		"But I am here, I will be waiting for you",
@@ -127,16 +127,20 @@ function HelloSoshi()
 		"Огонь по готовности!",
 		"Без труда не вытащишь и рыбку из пруда",
 		"Привет",
-		"В гостях хорошо, а дома лучше.",
+		"В гостях хорошо, а дома лучше",
+
 
 		"PRAISE LORD HELIX!",
 		"I am Groot",
 		"Wew lad",
-		"And why did you click off",
+		"Jack! Come back!",
+		"You come back, mmkay?",
+		"(T⌓T)",
+		"And why did you click off?",
 		"THE MAIN TAB HAS CHANGED",
 		"Annyeong!~"
-    ];
-        
+	];
+		
 	// check if window is moved out of focus
 	$(window).on('blur', function()
 	{
@@ -145,7 +149,7 @@ function HelloSoshi()
 
 		// change window title every 5 seconds
 		mistake = setInterval(function() {
-		    document.title = howgreatisyourlove[Math.floor(Math.random() * howgreatisyourlove.length)];
+			document.title = howgreatisyourlove[Math.floor(Math.random() * howgreatisyourlove.length)];
 		}, 5000);
 	});
 
@@ -154,8 +158,8 @@ function HelloSoshi()
 	{
 		if(mistake)
 		{
-		    clearInterval(mistake);
-		    mistake = null;
+			clearInterval(mistake);
+			mistake = null;
 		}
 
 		// reset tab title to original
