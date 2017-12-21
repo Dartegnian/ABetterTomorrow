@@ -131,8 +131,10 @@ function HelloSoshi()
 
 
 		"PRAISE LORD HELIX!",
+		"I miss SS151 :(",
 		"I am Groot",
-		"Wew lad",
+		"Where are you going?",
+		"I'll be here if you need me",
 		"Jack! Come back!",
 		"You come back, mmkay?",
 		"(T⌓T)",
