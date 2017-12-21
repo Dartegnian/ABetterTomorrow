@@ -45,7 +45,7 @@ var ABetterConsole = function()
 	}
 };
 
-//main message script
+// main message script
 // chapter 3 coming soon!
 var car = 0;
 var mina = 0;

@@ -141,23 +141,24 @@ function HelloSoshi()
 		"Annyeong!~"
 	];
 		
-	// check if window is moved out of focus
+	// check if tab is moved out of focus
 	$(window).on('blur', function()
 	{
 		// pick random string from array for the title
 		document.title = howgreatisyourlove[Math.floor(Math.random() * howgreatisyourlove.length)];
 
-		// change window title every 5 seconds
+		// change tab title every 5 seconds
 		mistake = setInterval(function() {
 			document.title = howgreatisyourlove[Math.floor(Math.random() * howgreatisyourlove.length)];
 		}, 5000);
 	});
 
-	// check if window is in focus
+	// check if tab is in focus
 	$(window).on('focus', function()
 	{
 		if(mistake)
 		{
+			// clears the interval and stops the code
 			clearInterval(mistake);
 			mistake = null;
 		}
