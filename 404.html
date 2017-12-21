@@ -194,7 +194,7 @@
 	<source src="https://cdn.rawgit.com/Dartegnian/ABetterTomorrow/master/Windows%20Foreground.wav" type="audio/mpeg"/>
 </audio>
 
-<script language="javascript">
+<script>
 	var ABTURL = window.location.href;
 	var AdAlert = "Don't worry, love. The cavalry's (adverts) coming.";
 	var Darce = "Hey what's up guys, it's Sca-I mean Dart here and today we have a new dramatic alert.";
@@ -212,6 +212,7 @@
 		alert(AdAlert);
 	}
 
+	/* Run function when mousedown */
 	document.onmousedown = ABTNaengmyeon;
 	Yeah_Ya_Yeah_Ya__Warning_Warning_No_No = "Something happened";
 	WhatsWith = "I see what you intend to do";
@@ -220,6 +221,7 @@
 
 	function ABTNaengmyeon(event)
 	{
+		/* Check if button is the right-click button */
 		if (event.button == 2)
 		{
 			alert(Yeah_Ya_Yeah_Ya__Warning_Warning_No_No);
