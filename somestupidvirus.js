@@ -100,6 +100,18 @@ function HelloSoshi()
 		"I want you back",
 		"Trying to live without your love is one long sleepless night",
 
+		/* AZN Pride - Got Rice? */
+		"It's the A.Z.N",
+		"Vietnam to Japan to Mongolia. Philippines to Taiwan to Cambodia.",
+		"Got food, got soup, got spice?",
+		"It's the A.Z.N better recognize.",
+		"Anything you can show that is nice?",
+		"No forks in the house, chopsticks only.",
+		"Have a taste, don't be scared, try the lemon tea.",
+		"You don't want? That's alright, try the Pho Com Le.",
+		"Got luck every time you roll the dice?",
+		"Good luck is bad unless you run and hide, 'cause we're thugs for life baby. Asian Pride!",
+
 		/*Overwatch voice lines*/
 		"AFK",
 		"这个世界值得我们奋战！",
@@ -169,6 +181,10 @@ function HelloSoshi()
 
 		"PRAISE LORD HELIX!",
 		"I miss SS151 :(",
+		"All we gotta do is just be friends ♪",
+		"Ratsatsaa ja ripidabi dilla",
+		"I shall return! ...to SS151!",
+		"A wild Miku appears!",
 		"Wait! Was it something I said?",
 		"I am Groot",
 		"Where are you going?",
