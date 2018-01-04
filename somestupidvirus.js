@@ -162,6 +162,9 @@ function HelloSoshi()
 		"Hi, Monika here!",
 		"Welcome to the Literature Club!",
 		"This club..is full of incredibly cute girls!!",
+		"I just want to pull your skin open and crawl inside of you.",
+		"I love you so much that I even touch myself with the pen I stole from you.",
+		"Is it just me, or has Monika been acting a little off lately?",
 
 
 		"PRAISE LORD HELIX!",
