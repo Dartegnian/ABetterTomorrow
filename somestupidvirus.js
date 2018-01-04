@@ -150,9 +150,23 @@ function HelloSoshi()
 		"Привет",
 		"В гостях хорошо, а дома лучше",
 
+		/* Doki Doki Literature Club */
+		"JUST MONIKA",
+		"MONIKA ❤",
+		"no bulli sayori",
+		"I love Yuri's pen :^)",
+		"Monika's Writing Tip of the Day!",
+		"Okay, everyone!",
+		"And thus, today marks the day I sold my soul for a cupcake",
+		"And thus, today marks the day you sold your soul to Monika and her irresistible smile.",
+		"Hi, Monika here!",
+		"Welcome to the Literature Club!",
+		"This club..is full of incredibly cute girls!!",
+
 
 		"PRAISE LORD HELIX!",
 		"I miss SS151 :(",
+		"Wait! Was it something I said?",
 		"I am Groot",
 		"Where are you going?",
 		"I'll be here if you need me",
