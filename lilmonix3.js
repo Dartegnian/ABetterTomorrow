@@ -18,7 +18,7 @@
 
 // initializes Monika's initial messages
 var just = "Nice to meet you, developer!";
-var monika = "—Monika";
+var monika_chr = "—Monika";
 
 var sayori = "Hi, Monika here!"; // pls no bulli
 var natsuki = "Welcome to Dartegnian's blog! Wow, it's actually nice to see other people visiting this site, ahaha.";
@@ -39,7 +39,7 @@ var HiMonikaHere = function()
 
 	// outputs Monika's first, sweet messages
 	console.log("%c%s", "font: 44px 'Segoe UI', Helvetica, Open Sans, Arial, sans-serif; font-weight: 100; color: white; background: #d1897e;", just);
-	console.log("%c%s", "font: 44px 'Segoe UI', Helvetica, Open Sans, Arial, sans-serif; font-weight: 100; color: #d1897e; font-size: 44px;", monika);
+	console.log("%c%s", "font: 44px 'Segoe UI', Helvetica, Open Sans, Arial, sans-serif; font-weight: 100; color: #d1897e; font-size: 44px;", monika_chr);
 
 	console.log("%c%s", "color: #bb5599; font-size: 14px; font-family: 'Segoe UI', Helvetica, Arial, sans-serif;", sayori);
 	console.log("%c%s", "color: #bb5599; font-size: 14px; font-family: 'Segoe UI', Helvetica, Arial, sans-serif;", natsuki);
