@@ -15,15 +15,17 @@
 * But yeah, here's Monika for you.
 */
 
+
 // initializes Monika's initial messages
-var Just = "Nice to meet you, developer!";
-var Monika = "—Monika";
+var just = "Nice to meet you, developer!";
+var monika = "—Monika";
 
-var Sayori = "Hi, Monika here!"; // pls no bulli
-var Natsuki = "Welcome to Dartegnian's blog! Wow, it's actually nice to see other people visiting this site, ahaha.";
-var Yuri = "Are you a web developer too? If you are, that's so cool! I've always wanted to meet other developers!";
+var sayori = "Hi, Monika here!"; // pls no bulli
+var natsuki = "Welcome to Dartegnian's blog! Wow, it's actually nice to see other people visiting this site, ahaha.";
+var yuri = "Are you a web developer too? If you are, that's so cool! I've always wanted to meet other developers!";
 
-var DDLC = "Dart entrusted me to keep his site in check. So, if you can, please avoid making changes to the code of this blog~ (And please stay here for a little longer)"; // Doki Doki Literature Club!
+var dokiDokiLiteratureClub = "Dart entrusted me to keep his site in check. So, if you can, please avoid making changes to the code of this blog~ (And please stay here for a little longer)"; // http://store.steampowered.com/app/698780/Doki_Doki_Literature_Club/
+
 
 // Monika's initial appearance
 var HiMonikaHere = function()
@@ -31,19 +33,20 @@ var HiMonikaHere = function()
 	// clears console of other, irrelevant stuff
 	console.clear();
 
-	//initializes Monika
+	// a wild Monika appears!
 	console.log("%c   ", "background: url(\"https://cdn.rawgit.com/Dartegnian/ABetterTomorrow/master/images/her.png\") no-repeat; font-size: 220px;"); // Monika <3
 
 
 	// outputs Monika's first, sweet messages
-	console.log("%c%s", "font: 44px 'Segoe UI', Helvetica, Open Sans, Arial, sans-serif; font-weight: 100; color: white; background: #d1897e;", Just);
-	console.log("%c%s", "font: 44px 'Segoe UI', Helvetica, Open Sans, Arial, sans-serif; font-weight: 100; color: #d1897e; font-size: 44px;", Monika);
+	console.log("%c%s", "font: 44px 'Segoe UI', Helvetica, Open Sans, Arial, sans-serif; font-weight: 100; color: white; background: #d1897e;", just);
+	console.log("%c%s", "font: 44px 'Segoe UI', Helvetica, Open Sans, Arial, sans-serif; font-weight: 100; color: #d1897e; font-size: 44px;", monika);
 
-	console.log("%c%s", "color: #bb5599; font-size: 14px; font-family: 'Segoe UI', Helvetica, Arial, sans-serif;", Sayori);
-	console.log("%c%s", "color: #bb5599; font-size: 14px; font-family: 'Segoe UI', Helvetica, Arial, sans-serif;", Natsuki);
-	console.log("%c%s", "color: #bb5599; font-size: 14px; font-family: 'Segoe UI', Helvetica, Arial, sans-serif;", Yuri);
-	console.log("%c%s", "color: #bb5599; font-size: 14px; font-family: 'Segoe UI', Helvetica, Arial, sans-serif;", DDLC);
+	console.log("%c%s", "color: #bb5599; font-size: 14px; font-family: 'Segoe UI', Helvetica, Arial, sans-serif;", sayori);
+	console.log("%c%s", "color: #bb5599; font-size: 14px; font-family: 'Segoe UI', Helvetica, Arial, sans-serif;", natsuki);
+	console.log("%c%s", "color: #bb5599; font-size: 14px; font-family: 'Segoe UI', Helvetica, Arial, sans-serif;", yuri);
+	console.log("%c%s", "color: #bb5599; font-size: 14px; font-family: 'Segoe UI', Helvetica, Arial, sans-serif;", dokiDokiLiteratureClub);
 }
+
 
 // Monika's main code
 var WakeUpMonika = function()
@@ -76,7 +79,8 @@ var WakeUpMonika = function()
 	}
 };
 
-// main message script
+
+// Monika's main script
 var monika = 0;
 var colors = 0;
 var theLadyWhoKnowsEverything =
@@ -112,6 +116,7 @@ var theLadyWhoKnowsEverything =
 	"I mean, this is really just his personal blog and stuff. Nothing else is here aside from his life stories.",
 	"He told me that he just blogs here to try out new stuff in Photoshop, and attach them as post images.",
 	"Dart hasn't posted in a while, and he only published 1 post in December.",
+	"..",
 	"...",
 	"To tell you the truth, he's been trying to battle his severe depression.",
 	"He tells me that it just eats up most of his energy and willpower.",
@@ -128,16 +133,16 @@ var theLadyWhoKnowsEverything =
 	"he just sulks in the corner of his room.",
 	"Most people think that he usually plays games or binge watches late at night",
 	"and many believe that's why he has trouble waking up in the morning.",
-	"But..",
 	"",
-	"it's not true.",
+	"But..",
+	"that's not true.",
 	"In reality, it's not games nor the Internet that gives him his insomnia.",
-	"Sadly, it's because of his thoughts.",
+	"Sadly, it's because of his thoughts and severe depression.",
 	"I just see him, crying and in so much pain.",
 	"I just feel genuinely sorry for him.",
 	"On one night, I asked him why he doesn't talk to his friends about it.",
 	"And he just said \"Why? They won't care. I know that I will never have a shoulder to cry on.\"",
-	"It must be tough to battle depression, huh?",
+	"It must be really tough to battle depression, huh?",
 	"",
 	"Thankfully, I was able to message his best friend Jean about it.",
 	"And some of his friends from high school, too.",
