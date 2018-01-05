@@ -16,15 +16,15 @@
 */
 
 
-// initializes Monika's initial messages
+// initializes Monika's first messages
 var just = "Nice to meet you, developer!";
 var monika_chr = "—Monika";
 
-var sayori = "Hi, Monika here!"; // pls no bulli
+var sayori = "Hi, Monika here!"; // pls no bulli sayori, she's too sweet
 var natsuki = "Welcome to Dartegnian's blog! Wow, it's actually nice to see other people visiting this site, ahaha.";
 var yuri = "Are you a web developer too? If you are, that's so cool! I've always wanted to meet other developers!";
 
-var dokiDokiLiteratureClub = "Dart entrusted me to keep his site in check. So, if you can, please avoid making changes to the code of this blog~ (And please stay here for a little longer)"; // http://store.steampowered.com/app/698780/Doki_Doki_Literature_Club/
+var dokiDokiLiteratureClub = "Dart entrusted me to keep his site in check. So, if you can, please avoid making changes to the code of this blog~ (And please stay here for a little longer)"; // http://store.steampowered.com/app/698780/Doki_Doki_Literature_Club
 
 
 // Monika's initial appearance
@@ -80,13 +80,16 @@ var WakeUpMonika = function()
 };
 
 
-// Monika's main script
+// Monika's script
 var monika = 0;
 var colors = 0;
 var theLadyWhoKnowsEverything =
 [
 	"...oh!",
 	"You're still here?",
+	"Sorry, I haven't properly introduced myself.",
+	"I'm Monika from Doki Doki Literature Club.",
+	"Are you going to stay here and look at the console?",
 	"Well, if you are, maybe you and I can have a little chat? Teehee~",
 	"So, this is Dartegnian's main blog—A Better Tomorrow.",
 	"To be honest,",
@@ -188,5 +191,5 @@ var theLadyWhoKnowsEverything =
 // waits for 3 seconds, then Monika appears
 setTimeout(HiMonikaHere, 3000);
 
-// initializer, "wakes up" Monika after 9 seconds from initial appearance (9 because the 9th month of the year is her birth month)
+// "wakes up" Monika after 9 seconds from her initial appearance (9 because the 9th month of the year is her birth month)
 setTimeout(WakeUpMonika, 12000);
