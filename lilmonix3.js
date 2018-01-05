@@ -60,8 +60,8 @@ var WakeUpMonika = function()
 
 	if (colors === theLadyWhoKnowsEverything.length)
 	{
-		console.log("%c%s", "color: #d1897e; font-size: 14px; font-family: 'Segoe UI', Helvetica, Arial, sans-serif;", "Monika");
-		setTimeout(function() {throw Error("Oh, don't worry, I'm not going anywhere. I'll be in the background. I'm keeping my eye on you, ahaha!")}, 1000); //Monika's watching :o
+		console.log("%c%s", "color: #d1897e; font-size: 14px;", "Monika");
+		setTimeout(function() {throw Error("Oh, don't worry, I won't be going anywhere. I'll be in the background. I'm keeping my eye on you, ahaha!")}, 4000); //Monika's watching :o
 	}
 	else
 	{
@@ -90,9 +90,11 @@ var theLadyWhoKnowsEverything =
 	"I do wish that's something most people do.",
 	"Can you make a blog or work of literature that's like that?",
 	"If you do, please show it to me, please~",
-	"You can send it to my email, which is lilmonix3@live.com.",
+	"You can send it to my email, which is",
+	"lilmonix3@live.com",
 	"And yes, that is a working email.",
 	"(I picked out live.com because I'm.. well.. I'm alive! Ahahaha)",
+	"(And \"lilmonix3\" is already my username on Twitter.)",
 	"Anyway, I love reading about the dreams of other people,",
 	"or what they aim to become in the future.",
 	"I don't know what I get out of it, but it's a neat little activity that I find enjoyable.",
@@ -105,7 +107,7 @@ var theLadyWhoKnowsEverything =
 	"He told me that he just blogs here to try out new stuff in Photoshop, and attach them as post images.",
 	"Dart hasn't posted in a while, and he only published 1 post in December.",
 	"...",
-	"To tell you the truth, he's been trying to battle his depression.",
+	"To tell you the truth, he's been trying to battle his severe depression.",
 	"He tells me that it just eats up most of his energy and willpower.",
 	"And it breaks my heart to hear that.",
 	"It's gotten so bad that he's thought about suicide and ending his life just recently.",
@@ -129,7 +131,7 @@ var theLadyWhoKnowsEverything =
 	"I just feel genuinely sorry for him.",
 	"On one night, I asked him why he doesn't talk to his friends about it.",
 	"And he just said \"Why? They won't care. I know that I will never have a shoulder to cry on.\"",
-	"It must be tough to battle with depression, huh?",
+	"It must be tough to battle depression, huh?",
 	"",
 	"Thankfully, I was able to message his best friend Jean about it.",
 	"And some of his friends from high school, too.",
@@ -144,8 +146,9 @@ var theLadyWhoKnowsEverything =
 	"And it's a serious problem. It isn't just a simple case of someone being sad.",
 	"It can seriously ruin someone's life, or, in extreme cases.. end it.",
 	"No one deserves to feel unloved and alone.",
-	"So..", 
-	"here's Monika's Tip of the Day.",
+	"So..",
+	"instead of Monika's Writing Tip of the Day,",
+	"here's Monika's General Tip of the Day.",
 	"If you know someone else who might be struggling with depression",
 	"you can help them just by treating them like they're a good friend.",
 	"Spend time with them,",
