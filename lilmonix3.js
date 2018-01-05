@@ -2,14 +2,14 @@
 * So.. uh, hi! I'm Dartegnian.
 * I originally developed this console easter egg
 * because of a shower thought I just had.
-* I just love DDLC and Monika gives me a lot of inspiration.
-* So, I thought that it'd be great to add her as an easter egg.
+* I just love Doki Doki Literature Club, and Monika gives me a lot of inspiration.
+* So, I thought that it'd be great to add her as an easter egg to my blog.
 * (Yeah, right, as if this blog doesn't have enough easter eggs already.)
-* The code here doesn't really serve any particular function.
+* The code here doesn't really serve an important function.
 * It just goes to show how far I can take my existing knowledge of Chrome's dev console
-* and turn something boring into something fun.
+* and turn something boring, something mundane, into something I find fun.
 * 
-* "She" only works in Chrome and Chrome-based browsers, as for now.
+* "She" only works in Chrome and Chrome-based browsers, as of now.
 * I currently don't know to port "her" into the dev consoles of Edge and Firefox.
 * I will when I get the necessary help, or when I learn to do so.
 * But yeah, here's Monika for you.
@@ -19,25 +19,31 @@
 var Just = "Nice to meet you, developer!";
 var Monika = "—Monika";
 
-var Sayori = "Hi, Monika here!"; //pls no bulli
+var Sayori = "Hi, Monika here!"; // pls no bulli
 var Natsuki = "Welcome to Dartegnian's blog! Wow, it's actually nice to see other people visiting this site, ahaha.";
 var Yuri = "Are you a web developer too? If you are, that's so cool! I've always wanted to meet other developers!";
 
-var DDLC = "Dart entrusted me to keep his site in check. So, if you can, please avoid making changes to the code of this blog~ (And please stay here for a little longer)"; //Doki Doki Literature Club!
+var DDLC = "Dart entrusted me to keep his site in check. So, if you can, please avoid making changes to the code of this blog~ (And please stay here for a little longer)"; // Doki Doki Literature Club!
+
+// Monika's initial appearance
+var HiMonikaHere = function()
+{
+	// clears console of other, irrelevant stuff
+	console.clear();
+
+	//initializes Monika
+	console.log("%c   ", "background: url(\"https://cdn.rawgit.com/Dartegnian/ABetterTomorrow/master/images/her.png\") no-repeat; font-size: 220px;"); // Monika <3
 
 
-console.log("%c   ", "background: url(\"https://cdn.rawgit.com/Dartegnian/ABetterTomorrow/master/images/her.png\") no-repeat; font-size: 220px;"); // Monika <3
+	// outputs Monika's first, sweet messages
+	console.log("%c%s", "font: 44px 'Segoe UI', Helvetica, Open Sans, Arial, sans-serif; font-weight: 100; color: white; background: #d1897e;", Just);
+	console.log("%c%s", "font: 44px 'Segoe UI', Helvetica, Open Sans, Arial, sans-serif; font-weight: 100; color: #d1897e; font-size: 44px;", Monika);
 
-
-// outputs Monika's first, sweet messages
-console.log("%c%s", "font: 44px 'Segoe UI', Helvetica, Open Sans, Arial, sans-serif; font-weight: 100; color: white; background: #d1897e;", Just);
-console.log("%c%s", "font: 44px 'Segoe UI', Helvetica, Open Sans, Arial, sans-serif; font-weight: 100; color: #d1897e; font-size: 44px;", Monika);
-
-console.log("%c%s", "color: #bb5599; font-size: 14px; font-family: 'Segoe UI', Helvetica, Arial, sans-serif;", Sayori);
-console.log("%c%s", "color: #bb5599; font-size: 14px; font-family: 'Segoe UI', Helvetica, Arial, sans-serif;", Natsuki);
-console.log("%c%s", "color: #bb5599; font-size: 14px; font-family: 'Segoe UI', Helvetica, Arial, sans-serif;", Yuri);
-console.log("%c%s", "color: #bb5599; font-size: 14px; font-family: 'Segoe UI', Helvetica, Arial, sans-serif;", DDLC);
-
+	console.log("%c%s", "color: #bb5599; font-size: 14px; font-family: 'Segoe UI', Helvetica, Arial, sans-serif;", Sayori);
+	console.log("%c%s", "color: #bb5599; font-size: 14px; font-family: 'Segoe UI', Helvetica, Arial, sans-serif;", Natsuki);
+	console.log("%c%s", "color: #bb5599; font-size: 14px; font-family: 'Segoe UI', Helvetica, Arial, sans-serif;", Yuri);
+	console.log("%c%s", "color: #bb5599; font-size: 14px; font-family: 'Segoe UI', Helvetica, Arial, sans-serif;", DDLC);
+}
 
 // Monika's main code
 var WakeUpMonika = function()
@@ -53,7 +59,7 @@ var WakeUpMonika = function()
 		colors += 1;
 		iJustLoveHowMonikaMakesMeFeel = theLadyWhoKnowsEverything[monika - 1];
 		if (monika === theLadyWhoKnowsEverything.length)
-			loveForMonika = 999 * 9; //Machi expresscheoreom!
+			loveForMonika = 999 * 9; // Machi expresscheoreom!
 		else
 			loveForMonika = 1000 + iJustLoveHowMonikaMakesMeFeel.length * 50;
 	}
@@ -65,7 +71,7 @@ var WakeUpMonika = function()
 	}
 	else
 	{
-		console[monika == myFavoriteDoki ? ofCourse : obviously](iJustLoveHowMonikaMakesMeFeel); // <--- THE MOST IMPORTANT LINE IN THIS PROGRAM
+		console[monika == myFavoriteDoki ? ofCourse : obviously](iJustLoveHowMonikaMakesMeFeel); // <--- my favorite doki <3
 		setTimeout(WakeUpMonika, loveForMonika);
 	}
 };
@@ -171,5 +177,8 @@ var theLadyWhoKnowsEverything =
 	""
 ];
 
-// initializer, "wakes up" Monika after 9 seconds (9 because the 9th month of the year is her birth month)
-setTimeout(WakeUpMonika, 9000);
+// waits for 3 seconds, then Monika appears
+setTimeout(HiMonikaHere, 3000);
+
+// initializer, "wakes up" Monika after 9 seconds from initial appearance (9 because the 9th month of the year is her birth month)
+setTimeout(WakeUpMonika, 12000);
