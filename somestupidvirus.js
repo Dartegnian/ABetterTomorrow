@@ -176,6 +176,8 @@ function HelloSoshi()
 		"This club..is full of incredibly cute girls!!",
 		"I just want to pull your skin open and crawl inside of you.",
 		"I love you so much that I even touch myself with the pen I stole from you.",
+		"I'll give myself paper cuts so your skin oil enters my bloodstream.",
+		"More importantly, I've endowed it with my scent.",
 		"Is it just me, or has Monika been acting a little off lately?",
 
 
