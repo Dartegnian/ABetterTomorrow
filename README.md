@@ -11,4 +11,4 @@ A script written in Javascript that outputs messages from an array into any brow
 Changes the title of an inactive tab into something else. Selects a random title based on an array and cycles through them every 5 seconds.
 
 ### Monika
-Monika from Doki Doki Literature Club. Based on the dev console script and pops up an image of Monika along with a custom script related to her. Only appears in the Chrom dev console.
+Monika from Doki Doki Literature Club. Based on the ```dev console script``` and pops up an image of Monika along with a custom script related to her. Only appears in the Chrome dev console.
