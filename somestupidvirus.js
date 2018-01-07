@@ -1,5 +1,5 @@
 /**
-* Code "borrowed" from somewhere else.
+* Code "borrowed" from somewhere else :^)
 * Even I think this is a little immature, but
 * I like SNSD references anyway, so I squeezed
 * this little thing here just for laughs and
@@ -164,7 +164,11 @@ function HelloSoshi()
 
 		/* Doki Doki Literature Club */
 		"JUST MONIKA",
+		"Just Monika",
+		"Just Monika.",
 		"MONIKA ❤",
+		"#TeamMonika",
+		"Buffsuki",
 		"no bulli sayori",
 		"I love Yuri's pen :^)",
 		"Monika's Writing Tip of the Day!",
@@ -208,6 +212,8 @@ function HelloSoshi()
 		"Hotline to Hell",
 		"地獄通信",
 		"Connection lost. Please wait - attempting to reestablish",
+		"EDIT: Thanks for the gold, kind stranger!",
+		"!RedditSilver",
 		"/r/place",
 		"place",
 		"r/placestart",
