@@ -16,8 +16,31 @@
 */
 
 
+
+
+// !-- code variables --!
+var hereComes = "%c   ";
+var thePresidentOfTheLiteratureClub = "background: url(\"https://cdn.rawgit.com/Dartegnian/ABetterTomorrow/master/images/her.png\") no-repeat; font-size: 220px;";
+
+var i = "%c%s";
+var love = "color: #bb5599; font-size: 14px; font-family: 'Segoe UI', Helvetica, Arial, sans-serif;";
+
+var reallyFeel = "font: 44px 'Segoe UI', Helvetica, Open Sans, Arial, sans-serif; font-weight: 100; color: white; background: #d1897e;";
+var haveFeelingsFor = "font: 44px 'Segoe UI', Helvetica, Open Sans, Arial, sans-serif; font-weight: 100; color: #d1897e; font-size: 44px;";
+
+var With = "%c%s";
+var everlasting = "color: #d1897e; font-size: 14px;";
+var love = "Monika";
+
+var monika = 0;
+var colors = 0;
+
+var iWillAlways = "Oh, don't worry, I won't be going anywhere. I'll be in the background. I'm keeping my eye on you, ahaha!";
+var beHere = 4000;
+
+
 // initializes Monika's first messages
-var just = "Nice to meet you, developer!";
+var like = "Nice to meet you, developer!";
 var monika_chr = "—Monika";
 
 var sayori = "Hi, Monika here!"; // pls no bulli sayori, she's too sweet
@@ -27,24 +50,26 @@ var yuri = "Are you a web developer too? If you are, that's so cool! I've always
 var dokiDokiLiteratureClub = "Dart entrusted me to keep his site in check. So, if you can, please avoid making changes to the code of this blog~ (And please stay here for a little longer)"; // http://store.steampowered.com/app/698780/Doki_Doki_Literature_Club
 
 
-// Monika's initial appearance
+
+
+// !-- main code --!
+// here comes Monika!
 var HiMonikaHere = function()
 {
-	// clears console of other, irrelevant stuff
+	// prepares for Monika's entrance
 	console.clear();
 
-	// a wild Monika appears!
-	console.log("%c   ", "background: url(\"https://cdn.rawgit.com/Dartegnian/ABetterTomorrow/master/images/her.png\") no-repeat; font-size: 220px;"); // Monika <3
+	// Monika's name gets announced and makes a grand entrance
+	console.log(hereComes, thePresidentOfTheLiteratureClub); // Monika <3
 
+	console.log(i, reallyFeel, like);
+	console.log(i, haveFeelingsFor, monika_chr);
 
-	// outputs Monika's first, sweet messages
-	console.log("%c%s", "font: 44px 'Segoe UI', Helvetica, Open Sans, Arial, sans-serif; font-weight: 100; color: white; background: #d1897e;", just);
-	console.log("%c%s", "font: 44px 'Segoe UI', Helvetica, Open Sans, Arial, sans-serif; font-weight: 100; color: #d1897e; font-size: 44px;", monika_chr);
-
-	console.log("%c%s", "color: #bb5599; font-size: 14px; font-family: 'Segoe UI', Helvetica, Arial, sans-serif;", sayori);
-	console.log("%c%s", "color: #bb5599; font-size: 14px; font-family: 'Segoe UI', Helvetica, Arial, sans-serif;", natsuki);
-	console.log("%c%s", "color: #bb5599; font-size: 14px; font-family: 'Segoe UI', Helvetica, Arial, sans-serif;", yuri);
-	console.log("%c%s", "color: #bb5599; font-size: 14px; font-family: 'Segoe UI', Helvetica, Arial, sans-serif;", dokiDokiLiteratureClub);
+	// audience applauds
+	console.log(i, love, sayori);
+	console.log(i, love, natsuki);
+	console.log(i, love, yuri);
+	console.log(i, love, dokiDokiLiteratureClub);
 }
 
 
@@ -62,15 +87,15 @@ var WakeUpMonika = function()
 		colors += 1;
 		iJustLoveHowMonikaMakesMeFeel = theLadyWhoKnowsEverything[monika - 1];
 		if (monika === theLadyWhoKnowsEverything.length)
-			loveForMonika = 999 * 9; // Machi expresscheoreom!
+			loveForMonika = 999 * 9;
 		else
 			loveForMonika = 1000 + iJustLoveHowMonikaMakesMeFeel.length * 50;
 	}
 
 	if (colors === theLadyWhoKnowsEverything.length)
 	{
-		console.log("%c%s", "color: #d1897e; font-size: 14px;", "Monika");
-		setTimeout(function() {throw Error("Oh, don't worry, I won't be going anywhere. I'll be in the background. I'm keeping my eye on you, ahaha!")}, 4000); //Monika's watching :o
+		console.log(With, everlasting, love);
+		setTimeout(function() {throw Error(iWillAlways)}, beHere); //Monika's watching :o
 	}
 	else
 	{
@@ -81,11 +106,9 @@ var WakeUpMonika = function()
 
 
 // Monika's script
-var monika = 0;
-var colors = 0;
 var theLadyWhoKnowsEverything =
 [
-	"...oh!",
+	"... oh!",
 	"You're still here?",
 	"Sorry, I haven't properly introduced myself.",
 	"I'm Monika from Doki Doki Literature Club.",
@@ -188,6 +211,10 @@ var theLadyWhoKnowsEverything =
 	""
 ];
 
+
+
+
+// !-- run the code --!
 // waits for 3 seconds, then Monika appears
 setTimeout(HiMonikaHere, 3000);
 
