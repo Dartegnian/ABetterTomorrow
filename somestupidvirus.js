@@ -71,12 +71,12 @@ function HelloSoshi()
 		"I'm okay because I have you",
 		
 		/* Taeyeon - Lonely Night */
-		"It’s time I get used to it",
-		"But the night is so long, I can’t fall asleep",
+		"It's time I get used to it",
+		"But the night is so long, I can't fall asleep",
 		"What are you doing right now?",
 		"I wanna go someplace unfamiliar",
-		"I know, that you’re not here",
-		"I’m sick of lonely nights",
+		"I know, that you're not here",
+		"I'm sick of lonely nights",
 
 		/* Girls' Generation - My Best Friend */
 		"Alright, let's make a promise. You are my best friend.",
@@ -90,9 +90,9 @@ function HelloSoshi()
 		"The word \"friendship\" may sound awkward, but I think that word was created to describe us",
 
 		/* Taeyeon - The Blue Night of Jeju Island */
-		"Let’s leave, the two of us abandoning everything",
-		"Let’s leave to Jeju Island, under the blue night sky",
-		"Let’s leave, together, it’s not that difficult",
+		"Let's leave, the two of us abandoning everything",
+		"Let's leave to Jeju Island, under the blue night sky",
+		"Let's leave, together, it's not that difficult",
 
 		/* Jackson 5 - I Want You Back */
 		"When I had you to myself, I didn't want you around",
@@ -240,7 +240,6 @@ function HelloSoshi()
 		"login: heathcliff",
 
 		"PRAISE LORD HELIX!",
-		"I miss SS151 :(",
 		"Remember MySpace Tom?",
 		"My pictures have MySpace angles?",
 		"Add me to your MySpace Top Friends!",
@@ -248,7 +247,7 @@ function HelloSoshi()
 		"Built on existing Xanga code",
 		"Dartegnian is in your extended network",
 		"**UNDER CONSTRUCTION**",
-		"Who I’d Like to Meet: F, around my age, as weird as me",
+		"Who I'd Like to Meet: F, around my age, as weird as me",
 		"Profile song: Answer (アンサー)",
 		"Dartegnian's GeoCities Page",
 		"Dartegnian's Xanga Site",
@@ -267,6 +266,7 @@ function HelloSoshi()
 		"r/placestart",
 		"/r/thebutton",
 		"the button",
+		"I miss SS151 :(",
 		"I shall return! ...to SS151!",
 		"A wild Miku appears!",
 		"Wait! Was it something I said?",
