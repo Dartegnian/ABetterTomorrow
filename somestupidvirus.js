@@ -59,6 +59,13 @@ function HelloSoshi()
 		"I felt lonely by myself",
 		"I didn't know you were right next to me",
 
+		/* Sunny - FM Date Logo Song */
+		"We'll get a little closer every day",
+		"The two of us getting to know each other just by talking",
+		"It'll be a happy time because we're together",
+		"Moment by moment, we'll fill the day",
+		"Every day is sweet because of you",
+
 		/* Sunny - Second Drawer */ /* <3 http://dartegnian.weebly.com */
 		"Again today, I ask myself how I'm doing",
 		"The dreams that I borrowed from this world",
@@ -77,6 +84,12 @@ function HelloSoshi()
 		"I wanna go someplace unfamiliar",
 		"I know, that you're not here",
 		"I'm sick of lonely nights",
+
+		/* Girls Generation - My Child/Fairytale */
+		"I draw of the future days of just you and I",
+		"Let's fill a treasure chest full with our wishes",
+		"And hide it underneath the tree that we chose",
+		"The fairy tale of you and I",
 
 		/* Girls' Generation - My Best Friend */
 		"Alright, let's make a promise. You are my best friend.",
