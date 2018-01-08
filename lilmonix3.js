@@ -23,7 +23,7 @@ var hereComes = "%c   ";
 var thePresidentOfTheLiteratureClub = "background: url(\"https://cdn.rawgit.com/Dartegnian/ABetterTomorrow/master/images/her.png\") no-repeat; font-size: 220px;";
 
 var i = "%c%s";
-var love = "color: #bb5599; font-size: 14px; font-family: 'Segoe UI', Helvetica, Arial, sans-serif;";
+var reallyLove = "color: #bb5599; font-size: 14px; font-family: 'Segoe UI', Helvetica, Arial, sans-serif;";
 
 var reallyFeel = "font: 44px 'Segoe UI', Helvetica, Open Sans, Arial, sans-serif; font-weight: 100; color: white; background: #d1897e;";
 var haveFeelingsFor = "font: 44px 'Segoe UI', Helvetica, Open Sans, Arial, sans-serif; font-weight: 100; color: #d1897e; font-size: 44px;";
@@ -66,10 +66,10 @@ var HiMonikaHere = function()
 	console.log(i, haveFeelingsFor, monika_chr);
 
 	// audience applauds
-	console.log(i, love, sayori);
-	console.log(i, love, natsuki);
-	console.log(i, love, yuri);
-	console.log(i, love, dokiDokiLiteratureClub);
+	console.log(i, reallyLove, sayori);
+	console.log(i, reallyLove, natsuki);
+	console.log(i, reallyLove, yuri);
+	console.log(i, reallyLove, dokiDokiLiteratureClub);
 }
 
 
