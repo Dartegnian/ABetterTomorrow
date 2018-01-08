@@ -38,6 +38,23 @@ function HelloSoshi()
 		"And in your reality, if I don't know how to love you",
 		"I'll leave you be",
 
+		/* Girls' Generation - Divine */
+		"I suppose I’m too fragile, my heart wavers so easily",
+		"Looking for an answer that fades as the dawn breaks",
+		"The crossroads standing in my way",
+		"The starlight guiding me",
+		"Tell me where I’m supposed to go",
+		"No matter how far, no matter how hard I falter",
+		"I’m waiting for a sign from above, that’s destiny",
+		"Like I’m small and powerless against the raging tide",
+		"But as long as the sea parts, I’ll make a path there",
+		"Until the day the light shines through the clouds,",
+		"Don’t say goodbye",
+		"Surely, you would remember our wish, right?",
+		"Let’s make the journey we walked together be everlasting proof",
+		"In front of the raging tide, what can we do?",
+		"Let's meet the challenge in a close embrace",
+
 		/* Girls' Generation - Tears */
 		"Come to me as the wind",
 		"Come back to me as the rain",
@@ -46,11 +63,37 @@ function HelloSoshi()
 		"You leave so many memories",
 		"How can I convey it to you?",
 
+		/* Girls' Generation - Honey/Perfect for You */
+		"Tell me your wish, I will make it come true",
+		"Whenever you're sad, if you just look upon my face",
+		"You will suddenly smile joyfully",
+		"I'm perfect for you",
+		"This greedy and prideful person I am is slowly changing",
+		"You make me happy",
+
 		/* Girls Generation - My Child/Fairytale */
 		"I draw of the future days of just you and I",
 		"Let's fill a treasure chest full with our wishes",
 		"And hide it underneath the tree that we chose",
 		"The fairy tale of you and I",
+
+		/* Girls' Generation - Ha Ha Ha */
+		"When it's tough, ha ha ha",
+		"Today was another hard day",
+		"Even when the world is noisy",
+		"If you just worry, nothing will get done",
+		"Now, just shake everything off and stand up",
+		"The main character on the skylight stage—that's us, it's you",
+
+		/* Girls' Generation - Stay Girls */
+		"After meeting you, I wonder how much I have changed",
+		"Have I become closer to the person that I admire?",
+		"No matter the day, no matter the time, your voice supported me",
+		"Everyday, everyday, because I",
+		"All the way, all the way, wasn’t alone",
+		"I was finally able to reach this place",
+		"No matter what the future holds, don't change who you are",
+		"I promised one thing. Until my dream comes true, I will never give up",
 
 		/* Girls' Generation - My Best Friend */
 		"Alright, let's make a promise. You are my best friend.",
@@ -66,6 +109,13 @@ function HelloSoshi()
 		/* Girls' Generation - Snowy Wish */
 		"I felt lonely by myself",
 		"I didn't know you were right next to me",
+
+		/* Girls Generation-TTS - Library */
+		"How can you seem like a different person at each moment?",
+		"My dictionary is filled up with you",
+		"Even if the night grows deep, without knowing, I will fall into it",
+		"On places I need to memorize, underline",
+		"On things I want to see again, bookmark",
 
 		/* Sunny - FM Date Logo Song */
 		"We'll get a little closer every day",
