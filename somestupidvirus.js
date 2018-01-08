@@ -7,6 +7,8 @@
 * It's my personal site/blog anyway, I can do
 * whatever I want with it. But yeah, I think
 * this is a little immature, even for me.
+* This code contains a lot of my personality
+* and the things I like.
 */
 
 function HelloSoshi()
@@ -184,7 +186,7 @@ function HelloSoshi()
 		"More importantly, I've endowed it with my scent.",
 		"Is it just me, or has Monika been acting a little off lately?",
 
-		/* weeb stuff that I like */
+		/* weeb stuff that I like. Some were given by my best friend Jean <3 */
 		"All we gotta do is just be friends ♪",
 		"Ratsatsaa ja ripidabi dilla",
 		"Kagamine Len and Rin - Servant of Evil",
@@ -194,6 +196,7 @@ function HelloSoshi()
 		"初音ミク - Tell Your World",
 		"初音ミク - Yellow",
 		"初音ミク - 千本桜 (Senbonzakura)",
+		"Crypton Future Media",
 		"地獄少女",
 		"あ な た の 怨 み 、 晴 ら し ま す 。",
 		"Hotline to Hell",
@@ -208,7 +211,23 @@ function HelloSoshi()
 		"Demeaning and bringing harm to others,",
 		"A damned soul wallowing in sin...",
 		"Care to give death a try?",
+		"Kanon Wakeshima - Still Doll",
+		"IOSYS - Alice→Dere",
+		"Remilia Scarlet",
+		"Flandre Scarlet",
+		"Patchouli Knowledge",
+		"Scarlet Devil Mansion Website",
+		"Embodiment of Scarlet Devil",
+		"Touhou Website",
 		"Pikachu, I choose you!",
+		"Pokemon is my favorite anime. Seriously. No kidding.",
+		"I summon MY DARK MAGICIAN",
+		"POT OF GREED lets me draw 2 cards from my deck",
+		"KUNAI WITH CHAIN",
+		"Seto Kaiba = Brock",
+		"Egyptian God Card",
+		"Heart of the Cards",
+		"Kaiba Corporation Website",
 		"Kirito",
 		"Asuna",
 		"Knights of the Blood Oath",
