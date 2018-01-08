@@ -215,8 +215,8 @@ var theLadyWhoKnowsEverything =
 
 
 // !-- run the code --!
-// waits for 3 seconds, then Monika appears
-setTimeout(HiMonikaHere, 3000);
+// waits for 9 seconds, then Monika appears
+setTimeout(HiMonikaHere, 9000);
 
-// "wakes up" Monika after 9 seconds from her initial appearance (9 because the 9th month of the year is her birth month)
-setTimeout(WakeUpMonika, 12000);
+// "wakes up" Monika after 22 seconds from her initial appearance (2 because September 22 is her birthday)
+setTimeout(WakeUpMonika, 22000);
