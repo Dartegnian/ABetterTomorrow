@@ -1,12 +1,13 @@
 /**
 * Code "borrowed" from somewhere else :^)
-* Pssh, nothing personnel, kid.
-*
+* Psshh, nothing personnel, kid.
+* 
 * Okay, seriously.
 * Even I think this is a little immature, but
-* I like references anyway, so I squeezed
-* this little thing here just for laughs and
-* stuff.
+* I like references and easter eggs anyway, so
+* I squeezed this little thing here just for
+* laughs and stuff. Don't judge me.
+* 
 * It's my personal site/blog anyway, I can do
 * whatever I want with it. But yeah, I think
 * this is a little immature, even for me.
