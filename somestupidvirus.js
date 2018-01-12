@@ -408,6 +408,7 @@ function HelloSoshi()
 		"A wild Miku appears!",
 		"Wait! Was it something I said?",
 		"I am Groot",
+		"Girls' Generation comeback ISRAEL!",
 		"I'm still a S❤NE!",
 		"Sunshiner forever!",
 		"Girls' Generation is still here!",
