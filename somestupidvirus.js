@@ -301,7 +301,13 @@ function HelloSoshi()
 		"ALfheim Online",
 		"SAO got bad after episode 14 >:^(",
 		"login: heathcliff",
+		"Asuna is best girl",
+		"Monika is best girl",
 
+		"Dan Salvato is best girl",
+		"Jeff Kaplan is best girl",
+		"Nerf Jeff Kaplan on the PTR",
+		">being stuck in silver hell",
 		"PRAISE LORD HELIX!",
 		"Remember MySpace Tom?",
 		"My pictures have MySpace angles?",
