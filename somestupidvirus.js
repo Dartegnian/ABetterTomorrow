@@ -231,6 +231,7 @@ function HelloSoshi()
 		"В гостях хорошо, а дома лучше",
 
 		/* Doki Doki Literature Club */
+		"Doki Doki Literature Club",
 		"JUST MONIKA",
 		"Just Monika",
 		"Just Monika.",
@@ -240,6 +241,7 @@ function HelloSoshi()
 		"Dan Salvato is best girl",
 		"Buffsuki",
 		"no bulli sayori",
+		"Sayori Protection Squad",
 		"I love Yuri's pen :^)",
 		"Monika's Writing Tip of the Day!",
 		"Okay, everyone!",
