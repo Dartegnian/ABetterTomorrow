@@ -113,12 +113,21 @@ function HelloSoshi()
 		"I felt lonely by myself",
 		"I didn't know you were right next to me",
 
-		/* Girls Generation-TTS - Library */
+		/* Girls' Generation-TTS - Library */
 		"How can you seem like a different person at each moment?",
 		"My dictionary is filled up with you",
 		"Even if the night grows deep, without knowing, I will fall into it",
 		"On places I need to memorize, underline",
 		"On things I want to see again, bookmark",
+
+		/* Girls' Generation - Naengmyeon (botched romanization) */
+		"Chagaweo neomuna",
+		"Sokishiryeo neomuna",
+		"Eebbali neomushiryeo",
+		"Naengmyeon! Naengmyeon! Naengmyeon!",
+		"Gaseumi neomushiryeo",
+		"Neolbomyeon neomuna ddo dashibwado neomuna",
+		"Geuraedo neol saranghae~",
 
 		/* Sunny - FM Date Logo Song */
 		"We'll get a little closer every day",
@@ -408,6 +417,7 @@ function HelloSoshi()
 		"A wild Miku appears!",
 		"Wait! Was it something I said?",
 		"I am Groot",
+		"Ebbali nomu",
 		"Girls' Generation comeback ISRAEL!",
 		"I'm still a S❤NE!",
 		"Sunshiner forever!",
