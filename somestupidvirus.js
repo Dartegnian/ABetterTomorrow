@@ -268,6 +268,7 @@ function HelloSoshi()
 		"Is it just me, or has Monika been acting a little off lately?",
 
 		/* weeb stuff that I like. Some were given by my best friend Jean <3 */
+		"♪ Just be friends ",
 		"All we gotta do is just be friends ♪",
 		"TrySail 『adrenaline!!!』",
 		"LiSA 『crossing field』",
@@ -338,6 +339,10 @@ function HelloSoshi()
 		"I didn't like Eromanga Sensei",
 		"Sagiri dancing is still cute!!!",
 
+		"NAKE FEWS",
+		"Clippy was here",
+		"Bonzi Buddy was here",
+		"You've got mail!",
 		"Kony 2012 was a joke",
 		"AZN Pride",
 		"Jeff Kaplan is best girl",
@@ -385,6 +390,14 @@ function HelloSoshi()
 		"Connection lost. Please wait - attempting to reestablish",
 		"EDIT: Thanks for the gold, kind stranger!",
 		"!RedditSilver",
+		"AskReddit = Ass Credit",
+		"/r/AskReddit = /r/WritingPrompts",
+		"/r/comedycemetery",
+		"/r/AdviceAnimals is cancer",
+		"TIFU by writing this JavaScript code",
+		"TIL you can write a function that changes an inactive tab name with JavaScript",
+		"TL;DR Dart's new cringy/edgy teenage blog site",
+		"Don't get these references? Then you're OUT OF THE LOOP!",
 		"/r/place",
 		"place",
 		"r/placestart",
