@@ -1,14 +1,17 @@
 /**
 * Code "borrowed" from somewhere else :^)
+* Pssh, nothing personnel, kid.
+*
+* Okay, seriously.
 * Even I think this is a little immature, but
-* I like SNSD references anyway, so I squeezed
+* I like references anyway, so I squeezed
 * this little thing here just for laughs and
 * stuff.
 * It's my personal site/blog anyway, I can do
 * whatever I want with it. But yeah, I think
 * this is a little immature, even for me.
 * This code contains a lot of my personality
-* and the things I like.
+* and the things I like. So, uh, be careful?
 */
 
 function HelloSoshi()
@@ -233,15 +236,28 @@ function HelloSoshi()
 		"Just Monika.",
 		"MONIKA ❤",
 		"#TeamMonika",
+		"Monika is best girl",
+		"Dan Salvato is best girl",
 		"Buffsuki",
 		"no bulli sayori",
 		"I love Yuri's pen :^)",
 		"Monika's Writing Tip of the Day!",
 		"Okay, everyone!",
+		"2029, everybody!",
+		"#Doki2029",
+		"#Doki2029 > #Kony2012",
+		"Monika is my waifu!",
+		"Can't wait to (finally) marry Monika",
+		"2D Doki girls > 3D girls",
+		"Monika Route Mod! Woot!",
+		"Monika After Story Mod! Woot!",
+		"I want Monika to come out of my screen",
+		"MONIKA REAL LIFE MOD WHEN???",
 		"And thus, today marks the day I sold my soul for a cupcake",
-		"And thus, today marks the day you sold your soul to Monika and her irresistible smile.",
+		"And thus, today marks the day you sold my soul to Monika and her irresistible smile.",
 		"Hi, Monika here!",
 		"Welcome to the Literature Club!",
+		"With everlasting love, Monika",
 		"This club..is full of incredibly cute girls!!",
 		"I just want to pull your skin open and crawl inside of you.",
 		"I love you so much that I even touch myself with the pen I stole from you.",
@@ -304,16 +320,19 @@ function HelloSoshi()
 		"ALfheim Online",
 		"SAO got bad after episode 14 >:^(",
 		"ALfheim Online was a mistake",
+		"Why did they ruin Asuna in ALfheim?",
+		"The 2nd arc of SAO was really, REALLY bad",
+		"The 2nd arc of SAO was really, REALLY distasteful",
 		"The SAO 1st was is good",
 		"Aincrad is better lol",
 		"login: heathcliff",
 		"Asuna is best girl",
-		"Monika is best girl",
+		"Asuna > Leafa",
 		"I actually watched Eromanga Sensei",
 		"I didn't like Eromanga Sensei",
 		"Sagiri dancing is still cute!!!",
 
-		"Dan Salvato is best girl",
+		"Kony 2012 was a joke",
 		"Jeff Kaplan is best girl",
 		"Nerf Jeff Kaplan on the PTR",
 		">forever stuck in silver hell in OW and CSGO",
