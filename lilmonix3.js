@@ -19,15 +19,6 @@
 
 
 // !-- code variables --!
-var hereComes = "%c   ";
-var thePresidentOfTheLiteratureClub = "background: url(\"https://cdn.rawgit.com/Dartegnian/ABetterTomorrow/master/images/her.png\") no-repeat; font-size: 220px;";
-
-var i = "%c%s";
-var reallyLove = "color: #bb5599; font-size: 14px; font-family: 'Segoe UI', Helvetica, Arial, sans-serif;";
-
-var reallyFeel = "font: 44px 'Segoe UI', Helvetica, Open Sans, Arial, sans-serif; font-weight: 100; color: white; background: #d1897e;";
-var haveFeelingsFor = "font: 44px 'Segoe UI', Helvetica, Open Sans, Arial, sans-serif; font-weight: 100; color: #d1897e; font-size: 44px;";
-
 var With = "%c%s";
 var everlasting = "color: #d1897e; font-size: 14px;";
 var love = "Monika";
@@ -39,18 +30,6 @@ var iWillAlways = "Oh, don't worry, I won't be going anywhere. I'll be in the ba
 var beHere = 4000;
 
 
-// initializes Monika's first messages
-var like = "Nice to meet you, developer!";
-var monika_chr = "—Monika";
-
-var sayori = "Hi, Monika here!"; // pls no bulli sayori, she's too sweet
-var natsuki = "Welcome to Dartegnian's blog! Wow, it's actually nice to see other people visiting this site, ahaha.";
-var yuri = "Are you a web developer too? If you are, that's so cool! I've always wanted to meet other developers!";
-
-var dokiDokiLiteratureClub = "Dart entrusted me to keep his site in check. So, if you can, please avoid making changes to the code of this blog~ (And please stay here for a little longer)"; // http://store.steampowered.com/app/698780/Doki_Doki_Literature_Club
-
-
-
 
 // !-- main code --!
 // here comes Monika!
@@ -60,16 +39,16 @@ var HiMonikaHere = function()
 	console.clear();
 
 	// Monika's name gets announced and makes a grand entrance
-	console.log(hereComes, thePresidentOfTheLiteratureClub); // Monika <3
+	console.log("%c   ", "background: url(\"https://cdn.rawgit.com/Dartegnian/ABetterTomorrow/master/images/her.png\") no-repeat; font-size: 220px;"); // Monika <3
 
-	console.log(i, reallyFeel, like);
-	console.log(i, haveFeelingsFor, monika_chr);
+	console.log("%c%s", "font: 44px 'Segoe UI', Helvetica, Open Sans, Arial, sans-serif; font-weight: 100; color: white; background: #d1897e;", "Nice to meet you, developer!");
+	console.log("%c%s", "font: 44px 'Segoe UI', Helvetica, Open Sans, Arial, sans-serif; font-weight: 100; color: #d1897e; font-size: 44px;", "—Monika");
 
 	// audience applauds
-	console.log(i, reallyLove, sayori);
-	console.log(i, reallyLove, natsuki);
-	console.log(i, reallyLove, yuri);
-	console.log(i, reallyLove, dokiDokiLiteratureClub);
+	console.log("%c%s", "color: #bb5599; font-size: 14px; font-family: 'Segoe UI', Helvetica, Arial, sans-serif;", "Hi, Monika here!");
+	console.log("%c%s", "color: #bb5599; font-size: 14px; font-family: 'Segoe UI', Helvetica, Arial, sans-serif;", "Welcome to Dartegnian's blog! Wow, it's actually nice to see other people visiting this site, ahaha.");
+	console.log("%c%s", "color: #bb5599; font-size: 14px; font-family: 'Segoe UI', Helvetica, Arial, sans-serif;", "Are you a web developer too? If you are, that's so cool! I've always wanted to meet other developers!");
+	console.log("%c%s", "color: #bb5599; font-size: 14px; font-family: 'Segoe UI', Helvetica, Arial, sans-serif;", "Dart entrusted me to keep his site in check. So, if you can, please avoid making changes to the code of this blog~ (And please stay here for a little longer)");
 }
 
 
