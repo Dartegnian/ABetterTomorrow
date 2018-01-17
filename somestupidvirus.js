@@ -357,6 +357,8 @@ function HelloSoshi()
 		"Sagiri dancing is still cute!!!",
 
 		"NAKE FEWS",
+		"Do you know da wei",
+		"You are my sunshine, my only sunshine",
 		"Clippy was here",
 		"Bonzi Buddy was here",
 		"You've got mail!",
