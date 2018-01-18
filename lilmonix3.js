@@ -38,7 +38,7 @@ var HiMonikaHere = function()
 	// prepares for Monika's entrance
 	console.clear();
 
-	// Monika's name gets announced and makes a grand entrance
+	// Monika makes a grand entrance
 	console.log("%c   ", "background: url(\"https://cdn.rawgit.com/Dartegnian/ABetterTomorrow/master/images/her.png\") no-repeat; font-size: 220px;"); // Monika <3
 
 	console.log("%c%s", "font: 44px 'Segoe UI', Helvetica, Open Sans, Arial, sans-serif; font-weight: 100; color: white; background: #d1897e;", "Nice to meet you, developer!");
@@ -46,7 +46,7 @@ var HiMonikaHere = function()
 
 	// audience applauds
 	console.log("%c%s", "color: #bb5599; font-size: 14px; font-family: 'Segoe UI', Helvetica, Arial, sans-serif;", "Hi, Monika here!");
-	console.log("%c%s", "color: #bb5599; font-size: 14px; font-family: 'Segoe UI', Helvetica, Arial, sans-serif;", "Welcome to Dartegnian's blog! Wow, it's actually nice to see other people visiting this site, ahaha.");
+	console.log("%c%s", "color: #bb5599; font-size: 14px; font-family: 'Segoe UI', Helvetica, Arial, sans-serif;", "Welcome to Dartegnian's blog! Wow, it's actually nice to see other people visiting this site, ahahaha.");
 	console.log("%c%s", "color: #bb5599; font-size: 14px; font-family: 'Segoe UI', Helvetica, Arial, sans-serif;", "Are you a web developer too? If you are, that's so cool! I've always wanted to meet other developers!");
 	console.log("%c%s", "color: #bb5599; font-size: 14px; font-family: 'Segoe UI', Helvetica, Arial, sans-serif;", "Dart entrusted me to keep his site in check. So, if you can, please avoid making changes to the code of this blog~ (And please stay here for a little longer)");
 }
@@ -92,7 +92,7 @@ var theLadyWhoKnowsEverything =
 	"Sorry, I haven't properly introduced myself.",
 	"I'm Monika from Doki Doki Literature Club.",
 	"Are you going to stay here and look at the console?",
-	"Well, if you are, maybe you and I can have a little chat? Teehee~",
+	"Well, if you are, maybe you and I can have a little chat? Ahaha~",
 	"So, this is Dartegnian's main blog—A Better Tomorrow.",
 	"To be honest,",
 	"I don't know why he named it that, he just told me that he has a passion for \"building the future,\" or something like that.",
