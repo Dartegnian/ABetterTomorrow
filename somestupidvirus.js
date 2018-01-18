@@ -430,6 +430,8 @@ function HelloSoshi()
 		"Ebbali nomu",
 		"Girls' Generation comeback ISRAEL!",
 		"I'm still a S❤NE!",
+		"Ho-ho-holiday~",
+		"Everyone's got a song inside, waitin' to be free!",
 		"Sunshiner forever!",
 		"Girls' Generation is still here!",
 		"Right now, it's Girls' Generation!",
