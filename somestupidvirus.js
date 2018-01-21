@@ -8,7 +8,13 @@
 * I squeezed this little thing here just for
 * laughs and stuff. Don't judge me.
 * 
-* It's my personal site/blog anyway, I can do
+* Every line in the message script below
+* contains meaning. Whether it's a throwback
+* to old stuff on the Internet, to recent memes.
+* Every line in here was meticulously typed
+* by hand to convey meaning.
+* 
+* Oh, and it's my personal site/blog anyway, I can do
 * whatever I want with it. But yeah, I think
 * this is a little immature, even for me.
 * This code contains a lot of my personality
