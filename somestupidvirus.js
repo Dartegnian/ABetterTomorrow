@@ -8,6 +8,28 @@
 * I squeezed this little thing here just for
 * laughs and stuff. Don't judge me.
 * 
+* I also added some lines from my favorite songs here.
+* This isn't really the place to explain my preference,
+* but I rarely get to talk about it.
+* The type of songs I like the most are the ones with
+* the most meaningful lyrics.
+* Of course, with the majority of these songs being
+* in a foreign language, there's NO WAY I could
+* possibly know of a song's meaning just by listening.
+* But that's not the point.
+* First, I like songs that have a good beat and rhythm.
+* But what really gets me, and makes the song linger more
+* in my head, is if the song has meaningful lyrics.
+* The best way I could think about it is through fishing.
+* A good song, for me, is one that gets me with a good hook.
+* But if the song fails to catch me with good lyrics, I
+* eventually let go of it.
+* If I found out that the lyrics of the song mean well, in
+* addition to the lovely beat it has, then that will really
+* "reel me in."
+* I hope my analogy was alright, ahaha. But yeah, here are
+* some songs that struck a chord with me.
+* 
 * It's my personal site/blog anyway, I can do
 * whatever I want with it. But yeah, I think
 * this is a little immature, even for me.
