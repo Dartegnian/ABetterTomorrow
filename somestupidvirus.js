@@ -42,6 +42,27 @@ function HelloSoshi()
 		"And in your reality, if I don't know how to love you",
 		"I'll leave you be",
 
+		/* Megurine Luka - Answer (アンサー) */
+		"After that, many years have passed, and the scene has dimmed",
+		"Time is cruel, then kind",
+		"The town I lived in with you, and the future we promised",
+		"Everything fades under the sunlight",
+		"The frozen clock hand begins to scratch away at our time",
+		"Despair, relief, and the washed away rain slowly fade away",
+		"That’s strange, even so, an important place deep in my chest aches",
+		"And your voice that calls my name, is as vivid as always",
+		"The thorns that should have disappeared are always piercing me, so I don’t forget",
+		"These feelings are a new chain, we will carry them forever",
+		"I don’t regret anything, I just suddenly think",
+		"of a world where everything went well",
+		"Like the calm after a storm, my broken heart has been healed",
+		"But, I wonder why, every time the seasons change, you call out",
+		"To this irreplaceable time, along with our memories",
+		"From now on, always, you probably will continue to live inside my heart",
+		"In that time to which we can’t return, our figures laugh without knowing pain",
+		"It’s sad, without a means, we are separated like this",
+		"But as long as these feelings are smoldered, we’ll always, always, just be friends",
+
 		/* Girls' Generation - Divine */
 		"I suppose I'm too fragile, my heart wavers so easily",
 		"Looking for an answer that fades as the dawn breaks",
