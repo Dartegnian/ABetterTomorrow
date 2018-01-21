@@ -8,6 +8,12 @@
 * I squeezed this little thing here just for
 * laughs and stuff. Don't judge me.
 * 
+* It's my personal site/blog anyway, I can do
+* whatever I want with it. But yeah, I think
+* this is a little immature, even for me.
+* This code contains a lot of my personality
+* and the things I like. So, uh, be careful?
+* 
 * I also added some lines from my favorite songs here.
 * This isn't really the place to explain my preference,
 * but I rarely get to talk about it.
@@ -21,20 +27,19 @@
 * But what really gets me, and makes the song linger more
 * in my head, is if the song has meaningful lyrics.
 * The best way I could think about it is through fishing.
-* A good song, for me, is one that gets me with a good hook.
-* But if the song fails to catch me with good lyrics, I
+* An okay song, for me, is one that gets me with a good "hook."
+* But if the song fails to capture me with creative lyrics, I
 * eventually let go of it.
 * If I found out that the lyrics of the song mean well, in
 * addition to the lovely beat it has, then that will really
 * "reel me in."
+* At that point, the song just doesn't leave a lasting impression
+* on my playlist, but it now leaves a lasting impression on my heart.
+* And, in rare occasions, it helps me understand my actions, feelings,
+* and who I am a person as well.
+* That's why I love music!
 * I hope my analogy was alright, ahaha. But yeah, here are
 * some songs that struck a chord with me.
-* 
-* It's my personal site/blog anyway, I can do
-* whatever I want with it. But yeah, I think
-* this is a little immature, even for me.
-* This code contains a lot of my personality
-* and the things I like. So, uh, be careful?
 */
 
 function HelloSoshi()
