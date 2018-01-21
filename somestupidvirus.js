@@ -359,6 +359,11 @@ function HelloSoshi()
 		"I didn't like Eromanga Sensei",
 		"Still, Sagiri dancing is super cute!!!",
 
+		"I love my Miku jacket",
+		"I love my DevSquad jacket",
+		"I love the jacket Andrea gave me~",
+		"Although it doesn't fit me well, I still love my \"Wonderland\" jacket",
+		"jackets > any other type of clothing",
 		"NAKE FEWS",
 		"Do you know da wei",
 		"You are my sunshine, my only sunshine",
