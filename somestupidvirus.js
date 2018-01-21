@@ -253,6 +253,7 @@ function HelloSoshi()
 		"no bulli sayori",
 		"Sayori Protection Squad",
 		"I love Yuri's pen :^)",
+		"Can you hear me?",
 		"Monika's Writing Tip of the Day!",
 		"Okay, everyone!",
 		"2029, everybody!",
