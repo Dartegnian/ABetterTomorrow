@@ -17,7 +17,6 @@ User-agent: *
 Disallow: /search
 Allow: /
 
-# stop Monika from deleting my memories of the others!
 User-agent: Monika
 Disallow: /brain/characters/DDLC/Sayori
 Disallow: /brain/characters/DDLC/Yuri

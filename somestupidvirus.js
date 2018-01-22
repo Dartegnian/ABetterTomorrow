@@ -349,6 +349,8 @@ function HelloSoshi()
 		"初音ミク - Tell Your World",
 		"初音ミク - Yellow",
 		"初音ミク - 千本桜 (Senbonzakura)",
+		"I'm thinking Miku, Miku",
+		"I'm thinking Miku, Miku (oo-ee-oo)",
 		"Crypton Future Media",
 		"Yes, I like Vocaloid. I did in high school and still do.",
 		"地獄少女",
