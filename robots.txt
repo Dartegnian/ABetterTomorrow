@@ -23,5 +23,8 @@ Disallow: /brain/characters/DDLC/Sayori
 Disallow: /brain/characters/DDLC/Yuri
 Disallow: /brain/characters/DDLC/Natsuki
 Disallow: /heart/pastcrushes
+Disallow: /heart/peopleilove
+Allow: /heart/peopleilove/Monika
+Allow: /brain/thoughts/love/Monika
 
 Sitemap: http://www.dartegnian.co/sitemap.xml
