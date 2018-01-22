@@ -1,0 +1,14 @@
+User-agent: Mediapartners-Google
+Disallow: 
+
+User-agent: *
+Disallow: /search
+Allow: /
+
+User-agent: Monika
+Disallow: /brain/characters/DDLC/Sayori
+Disallow: /brain/characters/DDLC/Yuri
+Disallow: /brain/characters/DDLC/Natsuki
+Disallow: /heart/pastcrushes
+
+Sitemap: http://www.dartegnian.co/sitemap.xml
