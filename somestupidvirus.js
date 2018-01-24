@@ -337,13 +337,17 @@ function HelloSoshi()
 		"Is it just me, or has Monika been acting a little off lately?",
 
 		/* weeb stuff that I like. Some were given by my best friend Jean <3 */
-		"♪ Just be friends ",
+		"♪ Just be friends",
 		"All we gotta do is just be friends ♪",
+		"♪ Dreamin chuchu",
+		"choko la ta ta ta ta ♪",
 		"TrySail 『adrenaline!!!』",
 		"LiSA 『crossing field』",
 		"Ratsatsaa ja ripidabi dilla",
 		"Kagamine Len and Rin - Servant of Evil",
 		"Megurine Luka - Answer (アンサー)",
+		"Megurine Luka - Dreamin Chuchu",
+		"巡音ルカ - どりーみんチュチュ",
 		"初音ミク - Weekender Girl",
 		"初音ミク - Two-Faced Lovers",
 		"初音ミク - Tell Your World",
