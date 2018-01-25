@@ -436,6 +436,7 @@ function HelloSoshi()
 		"Although it doesn't fit me well, I still love my \"Wonderland\" jacket",
 		"jackets > any other type of clothing",
 		"NAKE FEWS",
+		"Whoa mama",
 		"Do you know da wei",
 		"Dear Sunshine",
 		"Talking to Jean makes me happy",
