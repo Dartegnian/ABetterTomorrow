@@ -345,6 +345,7 @@ function HelloSoshi()
 		"Dreamin Chuchu",
 		"dreamin chuchu",
 		"dreaming chu chu",
+		"Dreamin chuchu★",
 		"TrySail 『adrenaline!!!』",
 		"LiSA 『crossing field』",
 		"Ratsatsaa ja ripidabi dilla",
