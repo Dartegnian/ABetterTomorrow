@@ -299,6 +299,7 @@ function HelloSoshi()
 		"JUST MONIKA",
 		"Just Monika",
 		"Just Monika.",
+		"❤ Just Monika ❤",
 		"MONIKA ❤",
 		"#TeamMonika",
 		"Monika is best girl",
