@@ -2,9 +2,9 @@
 * Code "borrowed" from somewhere else :^)
 * Psshh, nothing personnel, kid.
 * 
-* Okay, seriously.
-* Even I think this is a little immature, but
-* I like references and easter eggs anyway, so
+* Okay, but seriously.
+* Even I think this is a little immature. Still,
+* I like references and easter eggs, so, um,
 * I squeezed this little thing here just for
 * laughs and stuff. Don't judge me.
 * 
