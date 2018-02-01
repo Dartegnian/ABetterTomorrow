@@ -9,9 +9,9 @@
 * laughs and stuff. Don't judge me.
 * 
 * Every line in the message script below
-* contains meaning. Whether it's a throwback
-* to old stuff on the Internet, to recent memes.
-* Every line in here was meticulously typed
+* contains (some sort of) meaning. Whether it's a
+* throwback to old stuff on the Internet, to recent
+* memes. Every line in here was meticulously typed
 * by hand to convey meaning.
 * 
 * Oh, and it's my personal site/blog anyway, I can do
