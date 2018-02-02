@@ -347,7 +347,7 @@ function HelloSoshi()
 		"♪ Just be friends",
 		"All we gotta do is just be friends ♪",
 		"♪ Dreamin chuchu",
-		"choko la ta ta ta ta ♪",
+		"choco la ta ta ta ta ♪",
 		"Dreamin Chuchu",
 		"dreamin chuchu",
 		"dreaming chu chu",
