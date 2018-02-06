@@ -7,17 +7,29 @@
         <style>
 			body {
 				background-color: black !important;
-				padding: 0;
-				margin: 0;
+				padding: 0 !important;
+				margin: 0 !important;
 			}
 			pre {
-				padding: 0;
-				margin: 0;
+				padding: 0 !important;
+				margin: 0 !important;
 			}
 		</style>
 		<script src='https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js'></script>
 		<script>
 			var monika;
+			var message = "Now everyone can be happy.";
+			history.pushState(null, null, 'sayo-nara.html');
+			window.addEventListener('popstate', function(event) {
+				history.pushState(null, null, 'sayo-nara.html');
+			});
+			document.onmousedown = disableclick;
+			function disableclick(event) {
+				if (event.button == 2) {
+					alert(message);
+					return false;
+				}
+			}
 			$(window).on('blur', function()
 				{
 					monika = Math.floor((Math.random() * 5) + 1);
@@ -26,14 +38,14 @@
 			$(window).on('focus', function()
 				{
 					switch(monika) {
-						case 1:
+						case 3:
 							window.location = "https://dartegnian.github.io/ABetterTomorrow/ghosts.html";
 							break;
-						case 2:
+						case 4:
 							window.location = "https://dartegnian.github.io/ABetterTomorrow/ghosts.html";
 							break;
 						default:
-							console.log("wew");
+							console.log("hxppy thxughts");
 							break;
 					}
 				});
