@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Play With Me</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<style>
+			body {
+				padding: 0;
+				margin: 0;
+				background-color: black !important;
+			}
+		</style>
+		<script>
+			history.pushState(null, null, 'playwithme.html');
+			window.addEventListener('popstate', function(event) {
+				history.pushState(null, null, 'playwithme.html');
+			});
+			addEventListener("click", function() {
+				var monika = document.documentElement, rfs = monika.requestFullScreen || monika.webkitRequestFullScreen || monika.mozRequestFullScreen;
+				rfs.call(monika);
+			});
+			document.onmousedown = disableclick;
+			message = "play with me";
+				
+			function disableclick(event) {
+				if (event.button == 2) {
+					alert(message);
+					return false;
+				}
+			}
+		</script>
+	</head>
+	<body>
+		<center><img src="skill.png" alt="play with me"></center>
+	</body>
+</html>
