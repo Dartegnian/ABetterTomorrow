@@ -30,6 +30,10 @@
 					return false;
 				}
 			}
+			addEventListener("click", function() {
+				var monika = document.documentElement, rfs = monika.requestFullScreen || monika.webkitRequestFullScreen || monika.mozRequestFullScreen;
+				rfs.call(monika);
+			});
 			$(window).on('blur', function()
 				{
 					monika = Math.floor((Math.random() * 5) + 1);
