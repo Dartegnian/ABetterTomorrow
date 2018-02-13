@@ -1,6 +1,6 @@
 /**
 * Code "borrowed" from somewhere else :^)
-* Psshh, nothing personnel, kid.
+* Psssh… Nothin Personnel… Kid…
 * 
 * Okay, but seriously.
 * Even I think this is a little immature. Still,
