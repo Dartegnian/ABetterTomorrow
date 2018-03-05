@@ -9,12 +9,15 @@ This does not contain the Blogger source code nor the XML theme of my blog and i
 ## What's included
 
 ### Dev console script
+`somestupidvirus.js`
 A script written in JavaScript that outputs messages from an array into any browser console.
 
 ### Inactive tab HTML title changer
+`definitelynotmaliciouscode.js`
 JavaScript code that detects if the tab of the website (in this case, my blog) is out of focus. Then, it selects a random title based on an array and cycles through all of the elements in the array every 5 seconds.
 
 ### Monika
+`lilmonix3.js`
 <p align="center">
 	<img src="https://2.bp.blogspot.com/-s1EzTerhRKk/WnoFpkzaM7I/AAAAAAAACRs/QY_TNBih5XYhROOOcSpRIE3sk8lW6mdMQCLcBGAs/s0/iloveyoumonika.jpg" alt="Monika easter egg preview" title="Monika from Doki Doki Literature Club"/>
 </p>
