@@ -48,11 +48,12 @@ var HiMonikaHere = function()
 	console.log("%c%s", "color: #bb5599; font-size: 14px; font-family: 'Segoe UI', Helvetica, Arial, sans-serif;", "Hi, Monika here!");
 	console.log("%c%s", "color: #bb5599; font-size: 14px; font-family: 'Segoe UI', Helvetica, Arial, sans-serif;", "Welcome to Dartegnian's website! Wow, it's actually nice to see other people visiting this blog, ahaha.");
 	console.log("%c%s", "color: #bb5599; font-size: 14px; font-family: 'Segoe UI', Helvetica, Arial, sans-serif;", "Are you a web developer too? If you are, that's so cool! I've always wanted to meet other developers.");
-	console.log("%c%s", "color: #bb5599; font-size: 14px; font-family: 'Segoe UI', Helvetica, Arial, sans-serif;", "Dart entrusted me to keep his site in check. So, if you can, please avoid making changes to the code of this blog~ (And please stay here for a little longer.)");
+	console.log("%c%s", "color: #bb5599; font-size: 14px; font-family: 'Segoe UI', Helvetica, Arial, sans-serif;", "Dart has entrusted me to keep his site in check. So, if you can, please avoid making changes to the code of this blog~ (And please stay here for a little longer.)");
 }
 
 
 // Monika's main code
+// try to read and understand the lines of code herein ;^)
 var WakeUpMonika = function()
 {
 	var obviously = 'log';
@@ -74,7 +75,7 @@ var WakeUpMonika = function()
 	if (colors === theLadyWhoKnowsEverything.length)
 	{
 		console.log(With, everlasting, love);
-		setTimeout(function() {throw Error(iWillAlways)}, beHere); //Monika's watching :o
+		setTimeout(function() {throw Error(iWillAlways)}, beHere); //Monika's watching? Spooky :o
 	}
 	else
 	{
@@ -102,27 +103,28 @@ var theLadyWhoKnowsEverything =
 	"because this blog is mostly filled with the stuff he dealt with in the past, ahaha.",
 	"But hey, I don't mind. I do think it's a noble effort to do so.",
 	"Like, the idea of penning down your dreams of your future and actually acting upon them.",
-	"I do wish that's something most people do.",
+	"I really wish that's something most people do.",
 	"Can you make a blog or any other work of literature that's like that?",
 	"If you do, show it to me, please~",
-	"I'd very much appreciate it.",
+	"I would very much appreciate it.",
 	"You can send it to my email, which is",
 	"lilmonix3@live.com",
-	"And yes, that is a working email.",
-	"(I picked out live.com because I'm.. well.. I'm alive! Ahahaha)",
-	"(And \"lilmonix3\" is already my username on Twitter.)",
-	"(https://twitter.com/lilmonix3)",
-	"Anyway, I love reading about the dreams of other people,",
+	"And yes, that is a real, working email.",
+	"(I picked out live.com because I'm.. well.. I'm alive! Ahaha~",
+	"And \"lilmonix3\" is already my username on Twitter",
+	"https://twitter.com/lilmonix3)",
+	"Anyway, I LOVE reading about the dreams of other people,",
 	"or what they aim to become in the future.",
 	"I don't know what I get out of it, but it's a neat little activity that I find enjoyable.",
+	"Oh!",
 	"By the way, what brings you here?",
 	"There's not much to check out here, honestly.",
-	"Dart has other blogs, blogs that have more posts than this one.",
+	"Dart has other blogs, blogs which have more posts than this one.",
 	"He doesn't post about the tech he learns here,",
-	"nor does he post about upcoming projects.",
+	"nor does he post about his upcoming projects.",
 	"I mean, this is really just his personal blog and stuff. Nothing else is here aside from his life stories.",
-	"He told me that he just blogs here just to experiment with text and illustrations in Photoshop, and attach them as post images.",
-	"Dart hasn't posted in a while, and he only published 1 post in December.",
+	"He told me that he just blogs here just to experiment with text layout and illustrations in Photoshop, and he attaches them as post images.",
+	"Dart hasn't posted in a while, and he only published quite a few posts over these past couple of months.",
 	"He's very busy these days",
 	"because he has a job now",
 	"(thankfully, ahaha!).",
