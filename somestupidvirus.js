@@ -296,6 +296,7 @@ function HelloSoshi()
 
 		/* Doki Doki Literature Club */
 		"Doki Doki Literature Club",
+		"Doki! Doki!",
 		"JUST MONIKA",
 		"Just Monika",
 		"Just Monika.",
@@ -309,6 +310,7 @@ function HelloSoshi()
 		"Sayori deserves some love, too",
 		"Sayori Protection Squad",
 		"Sayori = Me",
+		"I ❤ Sayori",
 		"I can't believe how similar Sayori and I actually are",
 		"I feel sad for Sayori",
 		"I gave Yuri a pen :^)",
@@ -473,6 +475,7 @@ function HelloSoshi()
 		"Bonzi Buddy was here",
 		"You've got mail!",
 		"Kony 2012 was a joke",
+		"Kony 2012 flopped so hard",
 		"AZN Pride",
 		"Jeff Kaplan is best girl",
 		"Nerf Jeff Kaplan on the PTR",
