@@ -46,9 +46,9 @@ var HiMonikaHere = function()
 
 	// audience applauds
 	console.log("%c%s", "color: #bb5599; font-size: 14px; font-family: 'Segoe UI', Helvetica, Arial, sans-serif;", "Hi, Monika here!");
-	console.log("%c%s", "color: #bb5599; font-size: 14px; font-family: 'Segoe UI', Helvetica, Arial, sans-serif;", "Welcome to Dartegnian's blog! Wow, it's actually nice to see other people visiting this site, ahahaha.");
-	console.log("%c%s", "color: #bb5599; font-size: 14px; font-family: 'Segoe UI', Helvetica, Arial, sans-serif;", "Are you a web developer too? If you are, that's so cool! I've always wanted to meet other developers!");
-	console.log("%c%s", "color: #bb5599; font-size: 14px; font-family: 'Segoe UI', Helvetica, Arial, sans-serif;", "Dart entrusted me to keep his site in check. So, if you can, please avoid making changes to the code of this blog~ (And please stay here for a little longer)");
+	console.log("%c%s", "color: #bb5599; font-size: 14px; font-family: 'Segoe UI', Helvetica, Arial, sans-serif;", "Welcome to Dartegnian's website! Wow, it's actually nice to see other people visiting this blog, ahaha.");
+	console.log("%c%s", "color: #bb5599; font-size: 14px; font-family: 'Segoe UI', Helvetica, Arial, sans-serif;", "Are you a web developer too? If you are, that's so cool! I've always wanted to meet other developers.");
+	console.log("%c%s", "color: #bb5599; font-size: 14px; font-family: 'Segoe UI', Helvetica, Arial, sans-serif;", "Dart entrusted me to keep his site in check. So, if you can, please avoid making changes to the code of this blog~ (And please stay here for a little longer.)");
 }
 
 
