@@ -455,6 +455,8 @@ function HelloSoshi()
 		"Still, Sagiri dancing is super cute!!!",
 		"A wild Miku appears!",
 
+		"Sayo-nara",
+		"sayo-nara.mp3",
 		"I love my Miku jacket",
 		"I love my DevSquad jacket",
 		"I love the jacket Andrea gave me~",
