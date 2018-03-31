@@ -362,6 +362,7 @@ function HelloSoshi()
 		"drop pop candy",
 		"Torinoko City",
 		"Left Behind City",
+		"ハロ／ハワユ (Hello/How Are You)",
 		"Kagamine Len and Rin - Servant of Evil",
 		"Megurine Luka - Answer (アンサー)",
 		"Megurine Luka - Dreamin Chuchu",
