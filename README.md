@@ -19,10 +19,10 @@ File: `definitelynotmaliciouscode.js`
 JavaScript code that detects if the tab of the website (in this case, my blog) is out of focus. Then, it selects a random title based on an array and cycles through all of the elements in the array every 5 seconds.
 
 ### Monika
+File: `lilmonix3.js`
+
 <p align="center">
 	<img src="https://2.bp.blogspot.com/-s1EzTerhRKk/WnoFpkzaM7I/AAAAAAAACRs/QY_TNBih5XYhROOOcSpRIE3sk8lW6mdMQCLcBGAs/s0/iloveyoumonika.jpg" alt="Monika easter egg preview" title="Monika from Doki Doki Literature Club"/>
 </p>
-
-File: `lilmonix3.js`
 
 <a href="http://doki-doki-literature-club.wikia.com/wiki/Monika">Monika</a> from <a href="http://store.steampowered.com/app/698780/Doki_Doki_Literature_Club/">Doki Doki Literature Club</a>. Based on the ```Web browser console script``` project and outputs an image of Monika along with a custom message script related to her. Monika's image only shows up in the Chrome web console and is not known to show up in the web consoles of other browsers.
