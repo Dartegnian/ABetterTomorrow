@@ -1,6 +1,6 @@
 /**
 * Code "borrowed" from somewhere else :^)
-* Psssh… Nothin Personnel… Kid…
+* Psssh… Nothin' Personnel… Kid…
 * 
 * Okay, but seriously.
 * Even I think this is a little immature. Still,
@@ -12,15 +12,16 @@
 * contains (some sort of) meaning. Whether it's a
 * throwback to old stuff on the Internet, to recent
 * memes. Every line in here was meticulously typed
-* by hand to convey meaning.
+* by hand to convey some meaning.
 * 
 * Oh, and it's my personal site/blog anyway, I can do
-* whatever I want with it. But yeah, I think
+* whatever I want with it! But yeah, I think
 * this is a little immature, even for me.
 * This code contains a lot of my personality
 * and the things I like. So, uh, be careful?
 * 
 * I also added some lines from my favorite songs here.
+* 
 * This isn't really the place to explain my preference,
 * but I rarely get to talk about it.
 * The type of songs I like the most are the ones with
@@ -44,7 +45,8 @@
 * And, in rare occasions, it helps me understand my actions, feelings,
 * and who I am a person as well.
 * That's why I love music!
-* I hope my analogy was alright, ahaha. But yeah, here are
+* 
+* I hope my analogy was alright, ahaha! But yeah, here are
 * some songs that struck a chord with me.
 */
 
