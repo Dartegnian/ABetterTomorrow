@@ -60,7 +60,7 @@ function HelloSoshi()
 		"Every day, I imagine a future where I can be with you",
 		"In my hand is a pen that will write a poem of me and you",
 		"The ink flows down into the dark puddle",
-		"Just move your hand - write the way into his heart!",
+		"Just move your hand—write the way into his heart!",
 		"But in this world of infinite choices",
 		"What will it take just to find that special day?",
 		"Have I found everybody a fun assignment to do today?",
@@ -99,7 +99,7 @@ function HelloSoshi()
 		"But as long as these feelings are smoldered, we’ll always, always, just be friends",
 		
 		/* Hatsune Miku - Once Upon A Me */
-		"Yesterday's me in the mirror ",
+		"Yesterday's me in the mirror",
 		"Looks an awful lot like today's me",
 		"It's been sad, it's been distressing, it's been painful",
 		"But nobody ever listens to me",
