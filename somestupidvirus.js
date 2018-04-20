@@ -375,6 +375,7 @@ function HelloSoshi()
 
 		/* weeb stuff that I like. Some were given by my best friend Jean <3 */
 		"ME!ME!ME!",
+		"TeddyLoid -  ME!ME!ME!",
 		"♪ Just be friends",
 		"All we gotta do is just be friends ♪",
 		"♪ Dreamin chuchu",
