@@ -374,6 +374,7 @@ function HelloSoshi()
 		"Is it just me, or has Monika been acting a little off lately?",
 
 		/* weeb stuff that I like. Some were given by my best friend Jean <3 */
+		"ME!ME!ME!",
 		"♪ Just be friends",
 		"All we gotta do is just be friends ♪",
 		"♪ Dreamin chuchu",
