@@ -376,6 +376,9 @@ function HelloSoshi()
 		/* weeb stuff that I like. Some were given by my best friend Jean <3 */
 		"ME!ME!ME!",
 		"TeddyLoid - ME!ME!ME!",
+		"TeddyLoid — ME!ME!ME! (feat. daoko) Pt.1",
+		"TeddyLoid — ME!ME!ME! (feat. daoko) Pt.2",
+		"TeddyLoid — ME!ME!ME! (feat. daoko) Pt.3",
 		"♪ Just be friends",
 		"All we gotta do is just be friends ♪",
 		"♪ Dreamin chuchu",
