@@ -457,6 +457,7 @@ function HelloSoshi()
 		"Brain Burst Website",
 		"Kimi No Na Wa",
 		"Your Name",
+		"your name.",
 		"A Silent Voice",
 		"Eiga Koe no Katachi",
 		"Sprited Away Website",
