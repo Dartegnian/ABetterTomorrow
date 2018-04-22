@@ -387,6 +387,7 @@ function HelloSoshi()
 		"dreamin chuchu",
 		"dreaming chu chu",
 		"Dreamin chuchu★",
+		"Dreamin Chu Chu★",
 		"TrySail 『adrenaline!!!』",
 		"LiSA 『crossing field』",
 		"RADWIMPS 『Zen Zen Zense』",
