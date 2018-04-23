@@ -629,10 +629,10 @@ function HelloSoshi()
 		// pick random string from array for the title
 		document.title = howgreatisyourlove[Math.floor(Math.random() * howgreatisyourlove.length)];
 
-		// change tab title every 5 seconds
+		// change tab title every 3 seconds
 		mistake = setInterval(function() {
 			document.title = howgreatisyourlove[Math.floor(Math.random() * howgreatisyourlove.length)];
-		}, 5000);
+		}, 3000);
 	});
 
 	// check if tab is in focus
