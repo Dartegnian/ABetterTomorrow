@@ -599,6 +599,7 @@ function HelloSoshi()
 		"Whoa mama",
 		"Do you know da wei",
 		"Dear Sunshine",
+		"Ch-ch-ch-ch-changes",
 		"Talking to Jean makes me happy",
 		"Jean makes me happy",
 		"Jean is my bestest friend in the world~",
