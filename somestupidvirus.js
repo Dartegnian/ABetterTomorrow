@@ -495,6 +495,10 @@ function HelloSoshi()
 		"I didn't like Eromanga Sensei",
 		"Still, Sagiri dancing is super cute!!!",
 		"A wild Miku appears!",
+		"Stray Sheep",
+		"Stray Sheep Website",
+		"Catherine",
+		"Katherine McBride",
 
 		/* Ye old Internet references */
 		"Clippy was here",
