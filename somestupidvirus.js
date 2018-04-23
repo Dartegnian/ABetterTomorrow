@@ -48,7 +48,7 @@
 * 
 * I hope my analogy was alright, ahaha! But yeah, here are
 * some songs that struck a chord with me.
-*/
+**/
 
 function HelloSoshi()
 {
@@ -642,7 +642,7 @@ function HelloSoshi()
 		{
 			// clears the interval and stops the code
 			clearInterval(mistake);
-			mistake = null;
+			mistake = null; // no mistake :^)
 		}
 
 		// reset tab title to original
@@ -650,5 +650,5 @@ function HelloSoshi()
 	});
 }
 
-//initializes code
+// initializes code
 $(document.body).ready(HelloSoshi());
