@@ -530,7 +530,7 @@ function HelloSoshi()
 		"stephanie in wonderland..*",
 		"x [[ y  u  m  m  y ]] x",
 
-		/* Twitch Plays Pokemon references */
+		/* Twitch Plays Pokemon */
 		"I discovered the secret of true power by staring at a Helix Fossil for days and days",
 		"PRAISE LORD HELIX!",
 		"༼ つ ◕_◕ ༽つ PRAISE HELIX ༼ つ ◕_◕ ༽つ",
@@ -548,7 +548,7 @@ function HelloSoshi()
 		"Air Jordan -> AIIIIIIRRR",
 		"All-Terrain Venomoth -> AATTVVV",
 
-		/* Reddit references */
+		/* Reddit */
 		"Connection lost. Please wait - attempting to reestablish",
 		"EDIT: Thanks for the gold, kind stranger!",
 		"!RedditSilver",
@@ -569,7 +569,7 @@ function HelloSoshi()
 		"/r/thebutton",
 		"the button",
 
-		/* Girls' Generation/Sone references */
+		/* Girls' Generation/Sone */
 		"Ebbali nomu",
 		"Girls' Generation comeback ISRAEL!",
 		"I'm still a S❤NE!",
@@ -584,7 +584,7 @@ function HelloSoshi()
 		"영원히 소녀시대!",
 		"Tiffany's Xanga blogs are in my other blog :^)",
 
-		/* Gaming references */
+		/* Gaming */
 		"Jeff Kaplan is best girl",
 		"Nerf Jeff Kaplan on the PTR",
 		">forever stuck in silver hell in OW and CSGO",
