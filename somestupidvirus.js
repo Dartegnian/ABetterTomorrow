@@ -379,6 +379,7 @@ function HelloSoshi()
 		"Harro everynyan",
 		"Oh my gah!",
 		"Yukari Mobile",
+		"Chiyo-chan's dad",
 
 		/* weeb stuff that I like. Some were given by my best friend Jean <3 */
 		"ME!ME!ME!",
