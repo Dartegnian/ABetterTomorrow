@@ -373,6 +373,13 @@ function HelloSoshi()
 		"More importantly, I've endowed it with my scent.",
 		"Is it just me, or has Monika been acting a little off lately?",
 
+		/* Azumanga Daioh */
+		"I ❤ Osaka (Ayumu Kasuga)",
+		"Whut yew mean?",
+		"Harro everynyan",
+		"Oh my gah!",
+		"Yukari Mobile",
+
 		/* weeb stuff that I like. Some were given by my best friend Jean <3 */
 		"ME!ME!ME!",
 		"TeddyLoid - ME!ME!ME!",
