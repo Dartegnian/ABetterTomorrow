@@ -3,7 +3,7 @@
 </p>
 
 # A Better Tomorrow
-This is the GitHub repository that my main blog/website (https://www.dartegnian.co) uses. It contains some assets, some stuff in development, and other miscellaneous resources.
+This is the GitHub repository that my main blog/website (https://www.dartegnian.com) uses. It contains some assets, some stuff in development, and other miscellaneous resources.
 This Git repository does not contain the Blogger source code nor the main XML theme of my blog, and it never will.
 
 ## What's inside
