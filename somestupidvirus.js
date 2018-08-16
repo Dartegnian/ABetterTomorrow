@@ -380,6 +380,23 @@ function HelloSoshi()
 		"Oh my gah!",
 		"Yukari Mobile",
 		"Chiyo-chan's dad",
+		
+		/* Danganronpa */
+		"Kazuichi Soda is best soda",
+		"Chiaki!",
+		"Ultimate Weeaboo",
+		"Monokuma",
+		"Monokuma appears!",
+		"Puhuhuhu~",
+		"Upupupupu~",
+		"Fuck you, Junko Enoshima",
+		"Nagito Naego",
+		"Makoto Komaeda",
+		"Chiaki is best girl",
+		"Kaede Akamatsu tribute website",
+		"Gonta here webpage!",
+		"Chihiro Fujisaki is best girl",
+		"Hope × Despair",
 
 		/* weeb stuff that I like. Some were given by my best friend Jean <3 */
 		"ME!ME!ME!",
