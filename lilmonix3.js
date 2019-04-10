@@ -18,7 +18,7 @@
 
 
 
-// !-- code variables --!
+// !-- code var --!
 var With = "%c%s";
 var everlasting = "color: #d1897e; font-size: 14px;";
 var love = "Monika";
@@ -31,8 +31,10 @@ var beHere = 4000;
 
 
 
-// !-- main code --!
-// here comes Monika!
+
+// !-- init --!
+// oh shit waddup
+// here come dat girl Monika
 var HiMonikaHere = function()
 {
 	// prepares for Monika's entrance
@@ -50,6 +52,8 @@ var HiMonikaHere = function()
 	console.log("%c%s", "color: #bb5599; font-size: 14px; font-family: 'Segoe UI', Helvetica, Arial, sans-serif;", "Are you a web developer too? If you are, that's so cool! I've always wanted to meet other developers.");
 	console.log("%c%s", "color: #bb5599; font-size: 14px; font-family: 'Segoe UI', Helvetica, Arial, sans-serif;", "Dart has entrusted me to keep his site in check. So, if you can, please avoid making changes to the code of this blog~ (And please stay here for a little longer.)");
 }
+
+
 
 
 // Monika's main code
@@ -83,6 +87,8 @@ var WakeUpMonika = function()
 		setTimeout(WakeUpMonika, loveForMonika);
 	}
 };
+
+
 
 
 // Monika's script

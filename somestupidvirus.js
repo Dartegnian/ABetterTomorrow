@@ -50,6 +50,9 @@
 * some songs that struck a chord with me.
 **/
 
+
+
+
 function jigeumeunSoNyeoShiDae()
 {
 	var mistake = null;
@@ -698,8 +701,10 @@ function jigeumeunSoNyeoShiDae()
 		"Annyeong!~"
 	];
 	
-	/* Meat on the bone — meat of the program */
 
+
+
+	/* !-- Meat on the bone — meat of the program --! */
 	// EXPLANATION TIME!!!
 	// check if the tab is out of focus
 	$(window).on('blur', function()
@@ -728,6 +733,9 @@ function jigeumeunSoNyeoShiDae()
 	});
 }
 
-// initializes code
+
+
+
+// !-- init --!
 // IMMA FIRIN' MAH LAZER
 $(document.body).ready(jigeumeunSoNyeoShiDae());
