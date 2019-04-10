@@ -50,7 +50,7 @@
 * some songs that struck a chord with me.
 **/
 
-function HelloSoshi()
+function jigeumeunSoNyeoShiDae()
 {
 	var mistake = null;
 	var bluejeans = document.title;
@@ -726,4 +726,4 @@ function HelloSoshi()
 }
 
 // initializes code
-$(document.body).ready(HelloSoshi());
+$(document.body).ready(jigeumeunSoNyeoShiDae());
