@@ -86,7 +86,8 @@ function HelloSoshi()
 		"Despair, relief, and the washed away rain slowly fade away",
 		"That’s strange, even so, an important place deep in my chest aches",
 		"And your voice that calls my name, is as vivid as always",
-		"The thorns that should have disappeared are always piercing me, so I don’t forget",
+		"The thorns that should have disappeared are always piercing me",
+		"So I don’t forget",
 		"These feelings are a new chain, we will carry them forever",
 		"I don’t regret anything, I just suddenly think",
 		"of a world where everything went well",
@@ -97,6 +98,7 @@ function HelloSoshi()
 		"In that time to which we can’t return, our figures laugh without knowing pain",
 		"It’s sad, without a means, we are separated like this",
 		"But as long as these feelings are smoldered, we’ll always, always, just be friends",
+		"We’ll always, always, just be friends",
 		
 		/* Hatsune Miku - Once Upon A Me */
 		"Yesterday's me in the mirror",
@@ -110,7 +112,9 @@ function HelloSoshi()
 		"Let's get together for a long while, if you please",
 		"Now that I'm being a bit more positive",
 		"Can you see my heart glittering?",
-		"Was it sad? Was it distressing? It was painful but don't ever say nobody's listening",
+		"Was it sad?",
+		"Was it distressing?",
+		"It was painful but don't ever say nobody's listening",
 		"Hey it's all right! I'm always watching after your heart!",
 		"And then you're off running with a heart gleaming bright",
 		"Everyone supported me. So this time I'll give them my aid.",
@@ -266,7 +270,8 @@ function HelloSoshi()
 		"Have a taste, don't be scared, try the lemon tea",
 		"You don't want? That's alright, try the Pho Com Le",
 		"Got luck every time you roll the dice?",
-		"Good luck is bad unless you run and hide, 'cause we're thugs for life baby. Asian Pride!",
+		"Good luck is bad unless you run and hide, 'cause we're thugs for life baby.",
+		"Asian Pride",
 
 		/*Overwatch voice lines*/
 		"AFK",
@@ -359,7 +364,7 @@ function HelloSoshi()
 		"And thus, today marks the day I sold my soul to Monika and her irresistible smile",
 		"Hi, Monika here!",
 		"Amy Likes Spiders",
-		"% Get out of my head. Get out of my head. Get out of my head. Get out of my head.",
+		"% Get out of my head. Get out of my head.",
 		"Save Me",
 		"The Lady who Knows Everything",
 		"mdpnfbo,jrfp",
@@ -397,8 +402,23 @@ function HelloSoshi()
 		"Gonta here webpage!",
 		"Chihiro Fujisaki is best girl",
 		"Hope × Despair",
+		
+		/* Asobi Asobase */
+		"Three Piece OP",
+		"Suripisu!",
+		"Asobi Asobase!",
+		"Asobi Asobase",
+		"Pastimers Club Website",
+		"Hanako",
+		"Kasumi",
+		"Olivia",
+		"Hanako, Kasumi, Olivia",
+		"Maeda the butler",
+		"Asobi masho",
+		"Jankenpon!",
+		"スリピス",
 
-		/* weeb stuff that I like. Some were given by my best friend Jean <3 */
+		/* Vocaloid */
 		"Miku",
 		"Miku Hatsune",
 		"Luka",
@@ -408,11 +428,11 @@ function HelloSoshi()
 		"IA",
 		"ARIA ON THE PLANETES",
 		"IA -ARIA ON THE PLANETES-",
-		"ME!ME!ME!",
-		"TeddyLoid - ME!ME!ME!",
-		"TeddyLoid — ME!ME!ME! (feat. daoko) Pt.1",
-		"TeddyLoid — ME!ME!ME! (feat. daoko) Pt.2",
-		"TeddyLoid — ME!ME!ME! (feat. daoko) Pt.3",
+		"Yes, I like Vocaloid. I did in high school and still do.",
+		"Crypton Future Media",
+		"A wild Miku appears!",
+
+		/* Vocaloid Music */
 		"♪ Just be friends",
 		"All we gotta do is just be friends ♪",
 		"♪ Dreamin chuchu",
@@ -422,16 +442,13 @@ function HelloSoshi()
 		"dreaming chu chu",
 		"Dreamin chuchu★",
 		"Dreamin Chu Chu★",
-		"TrySail 『adrenaline!!!』",
-		"LiSA 『crossing field』",
-		"RADWIMPS 『Zen Zen Zense』",
 		"Ratsatsaa ja ripidabi dilla",
 		"Rolling Girl",
+		"rolling girl",
+		"rest in peace wowaka",
 		"drop pop candy",
 		"Torinoko City",
 		"Left-Behind City",
-		"rolling girl",
-		"rest in peace wowaka",
 		"Happy Synthesizer",
 		"ハロ/ハワユ",
 		"Hello/How Are You",
@@ -451,8 +468,8 @@ function HelloSoshi()
 		"I'm thinking Miku, Miku (oo-ee-oo)",
 		"♪ Blue hair, blue tie",
 		"hiding in your Wi-Fi! ♪",
-		"Crypton Future Media",
-		"Yes, I like Vocaloid. I did in high school and still do.",
+
+		/* Jigoku Shoujo */
 		"地獄少女",
 		"あ な た の 怨 み 、 晴 ら し ま す 。",
 		"Hotline to Hell",
@@ -467,7 +484,9 @@ function HelloSoshi()
 		"Demeaning and bringing harm to others,",
 		"A damned soul wallowing in sin...",
 		"Care to give death a try?",
-		"Kanon Wakeshima - Still Doll",
+		"Avatar the Last Airbender IS an anime",
+
+		/* Touhou */
 		"IOSYS - Alice→Dere",
 		"Remilia Scarlet",
 		"Flandre Scarlet",
@@ -475,11 +494,31 @@ function HelloSoshi()
 		"Scarlet Devil Mansion Website",
 		"Embodiment of Scarlet Devil",
 		"Touhou Website",
+
+		/* Pokemon GO TO THE POLLS */
 		"Pikachu, I choose you!",
 		"Pokémon is my favorite anime. Seriously. No kidding.",
 		"Latias is my favorite Pokémon",
 		"Oh my Arceus",
-		"Avatar the Last Airbender IS an anime",
+
+		/* Catherine */
+		"Stray Sheep",
+		"Stray Sheep Website",
+		"Catherine",
+		"Katherine McBride",
+		"Vincent",
+		"It's a Golden Show",
+
+		/* other weeb stuff that I like. Some were given by my best friend Jean <3 */
+		"ME!ME!ME!",
+		"TeddyLoid - ME!ME!ME!",
+		"TeddyLoid — ME!ME!ME! (feat. daoko) Pt.1",
+		"TeddyLoid — ME!ME!ME! (feat. daoko) Pt.2",
+		"TeddyLoid — ME!ME!ME! (feat. daoko) Pt.3",
+		"TrySail 『adrenaline!!!』",
+		"LiSA 『crossing field』",
+		"RADWIMPS 『Zen Zen Zense』",
+		"Kanon Wakeshima - Still Doll",
 		"I summon MY DARK MAGICIAN",
 		"Let's go, BLUE EYES WHITE DRAGON",
 		"POT OF GREED lets me draw 2 cards from my deck",
@@ -530,11 +569,6 @@ function HelloSoshi()
 		"I actually watched Eromanga Sensei",
 		"I didn't like Eromanga Sensei",
 		"Still, Sagiri dancing is super cute!!!",
-		"A wild Miku appears!",
-		"Stray Sheep",
-		"Stray Sheep Website",
-		"Catherine",
-		"Katherine McBride",
 
 		/* Ye old Internet references */
 		"Clippy was here",
