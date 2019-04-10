@@ -697,20 +697,23 @@ function jigeumeunSoNyeoShiDae()
 		"THE MAIN TAB HAS CHANGED",
 		"Annyeong!~"
 	];
-		
-	// check if tab is moved out of focus
+	
+	/* Meat on the bone — meat of the program */
+
+	// EXPLANATION TIME!!!
+	// check if the tab is out of focus
 	$(window).on('blur', function()
 	{
-		// pick random string from array for the title
+		// pick a random string from the array for the title
 		document.title = howgreatisyourlove[Math.floor(Math.random() * howgreatisyourlove.length)];
 
-		// change tab title every 3 seconds
+		// change the document title every 3 seconds
 		mistake = setInterval(function() {
 			document.title = howgreatisyourlove[Math.floor(Math.random() * howgreatisyourlove.length)];
 		}, 3000);
 	});
 
-	// check if tab is in focus
+	// check if the tab is in focus
 	$(window).on('focus', function()
 	{
 		if(mistake)
@@ -720,10 +723,11 @@ function jigeumeunSoNyeoShiDae()
 			mistake = null; // no mistake :^)
 		}
 
-		// reset tab title to original
+		// reset document title to original
 		document.title = bluejeans;
 	});
 }
 
 // initializes code
+// IMMA FIRIN' MAH LAZER
 $(document.body).ready(jigeumeunSoNyeoShiDae());
