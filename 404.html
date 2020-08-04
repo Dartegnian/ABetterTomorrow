@@ -1,241 +1,316 @@
 <style>
- ::selection {
-	color: white;
-	background: red;
- }
- ::-moz-selection {
-	color: white;
-	background: red;
- }
- .menu-new.clear {
-		 visibility: hidden;
- }
- .status-msg-hidden a {
-	user-select: initial;
-	-moz-user-select: initial;
-	-khtml-user-select: initial;
-	-webkit-user-select: initial;
-	-o-user-select: initial;
- }
- .status-msg-hidden {
-	margin-top: -5%;
- }
- @media only screen and (max-width: 1019px) and (min-width: 768px) {
-	#post-wrapper {
-	 margin-top: -44px;
+	::selection {
+		color: white;
+		background: red;
 	}
- }
- @media only screen and (max-width: 479px) {
-	#post-wrapper,
+
+	::-moz-selection {
+		color: white;
+		background: red;
+	}
+
+	.menu-new.clear {
+		visibility: hidden;
+	}
+
+	.status-msg-hidden a {
+		user-select: initial;
+		-moz-user-select: initial;
+		-khtml-user-select: initial;
+		-webkit-user-select: initial;
+		-o-user-select: initial;
+	}
+
+	.status-msg-hidden {
+		margin-top: -5%;
+	}
+
+	@media only screen and (max-width: 1019px) and (min-width: 768px) {
+		#post-wrapper {
+			margin-top: -44px;
+		}
+	}
+
+	@media only screen and (max-width: 479px) {
+
+		#post-wrapper,
+		div#mywrapper {
+			width: 100%;
+			margin-top: -50px;
+		}
+	}
+
+	@media only screen and (max-width: 747px) and (min-width: 480px) {
+
+		#post-wrapper,
+		div#mywrapper {
+			width: 100%;
+			margin-top: -20px;
+		}
+	}
+
+	i.fa.fa-spotify {
+		display: none;
+	}
+
+	i.fa.fa-bandcamp {
+		display: none;
+	}
+
+	#menu i.fa.fa-windows:hover {
+		color: #0078d7;
+		transition: all 0.40s;
+	}
+
+	.navToggle.open .icon:before {
+		background: #0078d7;
+	}
+
+	.navToggle.open .icon:after {
+		background: #0078d7;
+	}
+
+	#menu i.fa.fa-windows {
+		color: black;
+		transition: all 0.40s;
+	}
+
+	#outer-wrapper {
+		box-shadow: none;
+		background-color: white;
+		position: fixed;
+		width: 100%;
+		height: 100%;
+		top: 0;
+		left: 0;
+		top: 10%;
+	}
+
 	div#mywrapper {
-	 width: 100%;
-	 margin-top: -50px;
+		width: 100%;
 	}
- }
- @media only screen and (max-width: 747px) and (min-width: 480px) {
-	#post-wrapper,
-	div#mywrapper {
-	 width: 100%;
-	 margin-top: -20px;
+
+	@media only screen and (max-width: 1219px) {
+		div#mywrapper {
+			width: 100%;
+		}
 	}
- }
- i.fa.fa-spotify {
-	display: none;
- }
- i.fa.fa-bandcamp {
-	display: none;
- }
- #menu i.fa.fa-windows:hover {
-	color: #0078d7;
-	transition: all 0.40s;
- }
- .navToggle.open .icon:before {
-	background: #0078d7;
- }
- .navToggle.open .icon:after {
-	background: #0078d7;
- }
- #menu i.fa.fa-windows {
-	color: black;
-	transition: all 0.40s;
- }
- #outer-wrapper {
-	box-shadow: none;
-	background-color: white;
-	position: fixed;
-	width: 100%;
-	height: 100%;
-	top: 0;
-	left: 0;
-	top: 10%;
- }
- div#mywrapper {
-	width: 100%;
- }
- @media only screen and (max-width: 1219px) {
-	div#mywrapper {
-	 width: 100%;
+
+	aside#sidebar-wrapper,
+	footer#colophone {
+		display: none;
 	}
- }
- aside#sidebar-wrapper,
- footer#colophone {
-	display: none;
- }
- div#searchexpand1 {
-	float: left;
- }
- .status-msg-border {
-	border: 1px solid transparent;
- }
- .status-msg-bg {
-	background-color: transparent;
-	opacity: 1;
- }
- body,
- .main-content-wrapper {
-	color: white;
- }
- p {
-	color: white;
-	font-family: Segoe UI, Helvetica, 'Open Sans', Arial, sans-serif;
-	font-size: 17px;
-	font-weight: 400;
- }
- .status-msg-wrap {
-	margin: 0px auto;
- }
- #blog-pager {
-	display: none;
- }
- .main-content-wrapper {
-	padding-top: 0px;
- }
- body,
- .main-content-wrapper {
-	background-color: #0078d7;
- }
- .main-content-wrapper {
-	margin-top: 0px;
- }
- .wrapper,
- .bt-slider {
-	display: none;
- }
- .main-content-wrapper {
-	padding-top: 200px;
-	width: 100%;
-	height: 100%;
- }
- .status-msg-hidden, .status-msg-border {
-	background-color: #0078d7 !important;
-	border: 0px;
-	transition: all .50s ease-in-out;
-	-webkit-box-shadow: none !important;
-	box-shadow: none !important;
- }
- .bgblack {
-	display: none;
- }
- h1 {
-	margin-bottom: 0px;
- }
- .main-content-wrapper {
-	padding-top: 0px;
- }
- .bt-slider {
-	height: 0px;
- }
- .container {
-	display: none;
- }
- .navToggle {
-	border: none;
-	background: none;
- }
- .navToggle .icon {
-	background-color: white;
-	transition: all 0.40s;
- }
- .navToggle .icon:before,
- .navToggle .icon:after {
-	background-color: white;
-	transition: all 0.40s;
- }
- .navToggle:hover .icon:before {
-	background-color: white;
-	transition: all 0.40s;
- }
- .navToggle:hover .icon:after {
-	background-color: white;
-	transition: all 0.40s;
- }
- .navToggle:hover .icon {
-	background-color: white;
-	transition: all 0.40s;
- }
- .navToggle.open .icon {
-	background-color: transparent;
-	transition: all 0.40s;
- }
- .status-msg-body {
-	cursor: default;
- }
- #menu ul li a:hover {
-	color: #0078d7;
- }
- .navToggle {
-	box-shadow: none;
- }
- .navToggle:hover {
-	box-shadow: none;
- }
- #outer-wrapper {
-	background-color: #0078d7;
- }
+
+	div#searchexpand1 {
+		float: left;
+	}
+
+	.status-msg-border {
+		border: 1px solid transparent;
+	}
+
+	.status-msg-bg {
+		background-color: transparent;
+		opacity: 1;
+	}
+
+	body,
+	.main-content-wrapper {
+		color: white;
+	}
+
+	p {
+		color: white;
+		font-family: Segoe UI, Helvetica, 'Open Sans', Arial, sans-serif;
+		font-size: 17px;
+		font-weight: 400;
+	}
+
+	.status-msg-wrap {
+		margin: 0px auto;
+	}
+
+	#blog-pager {
+		display: none;
+	}
+
+	.main-content-wrapper {
+		padding-top: 0px;
+	}
+
+	body,
+	.main-content-wrapper {
+		background-color: #0078d7;
+	}
+
+	.main-content-wrapper {
+		margin-top: 0px;
+	}
+
+	.wrapper,
+	.bt-slider {
+		display: none;
+	}
+
+	.main-content-wrapper {
+		padding-top: 200px;
+		width: 100%;
+		height: 100%;
+	}
+
+	.status-msg-hidden,
+	.status-msg-border {
+		background-color: #0078d7 !important;
+		border: 0px;
+		transition: all .50s ease-in-out;
+		-webkit-box-shadow: none !important;
+		box-shadow: none !important;
+	}
+
+	.bgblack {
+		display: none;
+	}
+
+	h1 {
+		margin-bottom: 0px;
+	}
+
+	.main-content-wrapper {
+		padding-top: 0px;
+	}
+
+	.bt-slider {
+		height: 0px;
+	}
+
+	.container {
+		display: none;
+	}
+
+	.navToggle {
+		border: none;
+		background: none;
+	}
+
+	.navToggle .icon {
+		background-color: white;
+		transition: all 0.40s;
+	}
+
+	.navToggle .icon:before,
+	.navToggle .icon:after {
+		background-color: white;
+		transition: all 0.40s;
+	}
+
+	.navToggle:hover .icon:before {
+		background-color: white;
+		transition: all 0.40s;
+	}
+
+	.navToggle:hover .icon:after {
+		background-color: white;
+		transition: all 0.40s;
+	}
+
+	.navToggle:hover .icon {
+		background-color: white;
+		transition: all 0.40s;
+	}
+
+	.navToggle.open .icon {
+		background-color: transparent;
+		transition: all 0.40s;
+	}
+
+	.status-msg-body {
+		cursor: default;
+	}
+
+	#menu ul li a:hover {
+		color: #0078d7;
+	}
+
+	.navToggle {
+		box-shadow: none;
+	}
+
+	.navToggle:hover {
+		box-shadow: none;
+	}
+
+	#outer-wrapper {
+		background-color: #0078d7;
+	}
 </style>
 
 <script>
- var linksToReplace = [
-	 'a[href="https://ask.fm/Dartegnian"]',
-	 'a[href="https://www.dartegnian.com/p/freedom_wall.html"]',
-	 'a[href="https://www.dartegnian.com/p/about.html"]',
-	 'a[href="https://www.microsoft.com/en-us/windows"]'
- ];
- 
- for (var link of linksToReplace) {
-	document.querySelector(link).setAttribute('href', 'https://dartegnian.github.io/ABetterTomorrow/playwithme.html');
- }
+	var linksToReplace = [
+		'a[href="https://ask.fm/Dartegnian"]',
+		'a[href="https://www.dartegnian.com/p/freedom_wall.html"]',
+		'a[href="https://www.dartegnian.com/p/about.html"]',
+		'a[href="https://www.microsoft.com/en-us/windows"]'
+	];
 
- document.onmousedown = checkMouseDownEvent;
-
- function checkMouseDownEvent(e) {
-	if (e.button === 2) {
-	 window.location = "https://dartegnian.github.io/ABetterTomorrow/playwithme.html";
-	 return false;
+	for (var link of linksToReplace) {
+		document.querySelector(link).setAttribute('href', 'https://dartegnian.github.io/ABetterTomorrow/playwithme.html');
 	}
- }
+
+	document.onmousedown = checkMouseDownEvent;
+
+	function checkMouseDownEvent(e) {
+		if (e.button === 2) {
+			window.location = "https://dartegnian.github.io/ABetterTomorrow/playwithme.html";
+			return false;
+		}
+	}
 </script>
 
-<h1 style="cursor: default; -moz-user-select: none; -khtml-user-select: none; -webkit-user-select: none; -o-user-select: none; font-size: 120pt; color: white; font-family: Segoe UI, 'Open Sans', sans-serif; font-weight: 200; margin-bottom: -50px; letter-spacing: 0px;" align='left'>:(</h1>
+<h1 style="cursor: default; -moz-user-select: none; -khtml-user-select: none; -webkit-user-select: none; -o-user-select: none; font-size: 120pt; color: white; font-family: Segoe UI, 'Open Sans', sans-serif; font-weight: 200; margin-bottom: -50px; letter-spacing: 0px;"
+	align='left'>:(</h1>
 
-<br/>
+<br />
 
-<p align='left' style="cursor: default; -moz-user-select: none; -khtml-user-select: none; -webkit-user-select: none; -o-user-select: none;">This site ran into a problem and needs to be renavigated. I won't collect any error info, and I won't renavigate for you. You can go to <a href="https://www.dartegnian.com" style="-moz-user-select: none; -khtml-user-select: none; -webkit-user-select: none; -o-user-select: none; color:white;font-weight: bold; padding: 0px;">Start</a> or you can click the hamburger menu on the upper-right corner to see other pages you can visit.</p>
+<p align='left'
+	style="cursor: default; -moz-user-select: none; -khtml-user-select: none; -webkit-user-select: none; -o-user-select: none;">
+	This site ran into a problem and needs to be renavigated. I won't collect any error info, and I won't renavigate for
+	you. You can go to <a href="https://www.dartegnian.com"
+		style="-moz-user-select: none; -khtml-user-select: none; -webkit-user-select: none; -o-user-select: none; color:white;font-weight: bold; padding: 0px;">Start</a>
+	or you can click the hamburger menu on the upper-right corner to see other pages you can visit.</p>
 
-<br/>
+<br />
 
-<p align='left' style="cursor: default; -moz-user-select: none; -khtml-user-select: none; -webkit-user-select: none; -o-user-select: none; margin-top: -10px; margin-bottom: 40px;">0% complete</p>
+<p align='left'
+	style="cursor: default; -moz-user-select: none; -khtml-user-select: none; -webkit-user-select: none; -o-user-select: none; margin-top: -10px; margin-bottom: 40px;">
+	0% complete</p>
 
 <!-- QR error code -->
-<img align="left" style="width: 15%; -moz-user-drag: none; -khtml-user-drag: none; -webkit-user-drag: none; -moz-user-select: none; -khtml-user-select: none; -webkit-user-select: none; -o-user-select: none;" src="https://1.bp.blogspot.com/-TgSOmMeDVDE/WmX4Y2QZ2aI/AAAAAAAACPc/1F-HiIo5W80upRpVzPUzeiFmEHpWYwtlACLcBGAs/s0/qr.png"/>
-<p align="left" style="cursor: default; -moz-user-select: none; -khtml-user-select: none; -webkit-user-select: none; -o-user-select: none; font-size: 10.10px; padding-left: 16%; margin-bottom: 0; margin-top: -7px;">For more information about this issue and possible fixes, visit</p>
-<p align='left' style="cursor: default; -moz-user-select: none; -khtml-user-select: none; -webkit-user-select: none; -o-user-select: none; font-size: 10.10px; padding-left: 15.6%; margin-top: 0;"><a href="https://dartegnian.github.io/ABetterTomorrow/playwithme.html" style="color:white;">
-https://www.dartegnian.com/stopcode</a></p>
+<img align="left"
+	style="width: 15%; -moz-user-drag: none; -khtml-user-drag: none; -webkit-user-drag: none; -moz-user-select: none; -khtml-user-select: none; -webkit-user-select: none; -o-user-select: none;"
+	src="https://1.bp.blogspot.com/-TgSOmMeDVDE/WmX4Y2QZ2aI/AAAAAAAACPc/1F-HiIo5W80upRpVzPUzeiFmEHpWYwtlACLcBGAs/s0/qr.png" />
+<p align="left"
+	style="cursor: default; -moz-user-select: none; -khtml-user-select: none; -webkit-user-select: none; -o-user-select: none; font-size: 10.10px; padding-left: 16%; margin-bottom: 0; margin-top: -7px;">
+	For more information about this issue and possible fixes, visit</p>
+<p align='left'
+	style="cursor: default; -moz-user-select: none; -khtml-user-select: none; -webkit-user-select: none; -o-user-select: none; font-size: 10.10px; padding-left: 15.6%; margin-top: 0;">
+	<a href="https://dartegnian.github.io/ABetterTomorrow/playwithme.html" style="color:white;">
+		https://www.dartegnian.com/stopcode</a></p>
 
-<br/>
+<br />
 
-<p align="left" style="cursor: default; -moz-user-select: none; -khtml-user-select: none; -webkit-user-select: none; -o-user-select: none; font-size: 10.10px; padding-left: 16%; margin-bottom: 0; margin-top: -10px;">If you call a support person, give them this info:</p>
-<p align='left' style="cursor: default; -moz-user-select: none; -khtml-user-select: none; -webkit-user-select: none; -o-user-select: none; font-size: 10.10px; padding-left: 15.56%; margin-top: 0; margin-bottom: 0;"><span style="cursor: default; -moz-user-select: none; -khtml-user-select: none; -webkit-user-select: none; -o-user-select: none;"><a href="mailto:lilmonix3@live.com?Subject=Hello,%20Monika" target="_top" style="color:white;">Stop code:</span>HTTP_404_NOT_FOUND</a></p>
-<p align="left" style="cursor: default; -moz-user-select: none; -khtml-user-select: none; -webkit-user-select: none; -o-user-select: none; font-size: 10.10px; padding-left: 15.95%; margin-top: -1px;">What failed: UniformResourceLocator.sys</p>
+<p align="left"
+	style="cursor: default; -moz-user-select: none; -khtml-user-select: none; -webkit-user-select: none; -o-user-select: none; font-size: 10.10px; padding-left: 16%; margin-bottom: 0; margin-top: -10px;">
+	If you call a support person, give them this info:</p>
+<p align='left'
+	style="cursor: default; -moz-user-select: none; -khtml-user-select: none; -webkit-user-select: none; -o-user-select: none; font-size: 10.10px; padding-left: 15.56%; margin-top: 0; margin-bottom: 0;">
+	<span
+		style="cursor: default; -moz-user-select: none; -khtml-user-select: none; -webkit-user-select: none; -o-user-select: none;"><a
+			href="mailto:lilmonix3@live.com?Subject=Hello,%20Monika" target="_top" style="color:white;">Stop
+			code:</span>HTTP_404_NOT_FOUND</a></p>
+<p align="left"
+	style="cursor: default; -moz-user-select: none; -khtml-user-select: none; -webkit-user-select: none; -o-user-select: none; font-size: 10.10px; padding-left: 15.95%; margin-top: -1px;">
+	What failed: UniformResourceLocator.sys</p>
 
-<p align="left" style="color: #0078d7; cursor: help; font-size: 10.10px; padding-left: 16%; margin-bottom: 0; margin-top: -10px;">Monika was here~</p>
+<p align="left"
+	style="color: #0078d7; cursor: help; font-size: 10.10px; padding-left: 16%; margin-bottom: 0; margin-top: -10px;">
+	Monika was here~</p>
