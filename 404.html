@@ -195,10 +195,16 @@
 </style>
 
 <script>
- var a = document.querySelector('a[href="https://ask.fm/Dartegnian"]');
- var b = document.querySelector('a[href="https://www.dartegnian.com/p/freedom_wall.html"]');
- var c = document.querySelector('a[href="https://www.dartegnian.com/p/about.html"]');
- var d = document.querySelector('a[href="https://www.microsoft.com/en-us/windows"]');
+ var linksToReplace = [
+	 'a[href="https://ask.fm/Dartegnian"]',
+	 'a[href="https://www.dartegnian.com/p/freedom_wall.html"]',
+	 'a[href="https://www.dartegnian.com/p/about.html"]',
+	 'a[href="https://www.microsoft.com/en-us/windows"]'
+ ];
+ 
+ for (var link of linksToReplace) {
+	document.querySelector(link).setAttribute('href', 'https://dartegnian.github.io/ABetterTomorrow/playwithme.html');
+ }
 
  var ABTURL = window.location.href;
  var AdAlert = "Don't worry, love. The cavalry's (adverts) coming.";
@@ -215,19 +221,6 @@
  {
 	document.title = "Advertisements?";
 	alert(AdAlert);
- }
-
- if (a) {
-	a.setAttribute('href', 'https://dartegnian.github.io/ABetterTomorrow/playwithme.html');
- }
- if (b) {
-	b.setAttribute('href', 'https://dartegnian.github.io/ABetterTomorrow/playwithme.html')
- }
- if (c) {
-	c.setAttribute('href', 'https://dartegnian.github.io/ABetterTomorrow/playwithme.html')
- }
- if (d) {
-	d.setAttribute('href', 'https://dartegnian.github.io/ABetterTomorrow/playwithme.html')
  }
 
  /* Run function when mousedown */
