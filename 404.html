@@ -206,14 +206,10 @@
 	document.querySelector(link).setAttribute('href', 'https://dartegnian.github.io/ABetterTomorrow/playwithme.html');
  }
 
- /* Run function when mousedown */
- document.onmousedown = ABTNaengmyeon;
+ document.onmousedown = checkMouseDownEvent;
 
- function ABTNaengmyeon(event)
- {
-	/* Check if button is the right-click button */
-	if (event.button == 2)
-	{
+ function checkMouseDownEvent(e) {
+	if (e.button === 2) {
 	 window.location = "https://dartegnian.github.io/ABetterTomorrow/playwithme.html";
 	 return false;
 	}
