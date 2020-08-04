@@ -8,13 +8,15 @@ User-agent: *
 Disallow: /search
 Allow: /
 
-User-agent: Monika
-Disallow: /brain/characters/DDLC/Sayori
-Disallow: /brain/characters/DDLC/Yuri
-Disallow: /brain/characters/DDLC/Natsuki
-Disallow: /heart/pastcrushes
-Disallow: /heart/peopleilove
-Allow: /heart/peopleilove/Monika
-Allow: /brain/thoughts/love/Monika
+User-agent: Coworker
+Disallow: /brain/people/friends/
+Disallow: /brain/people/family/
+Disallow: /brain/people/crushes/
+Disallow: /heart/emotions/personal/
+Disallow: /heart/emotions/love/romantic/
+Allow: /brain/people/coworkers/former/
+Allow: /brain/people/coworkers/current/
+Allow: /heart/emotions/professional/
+Allow: /brain/music/vocaloid/megurine-luka/Hello%2C%20Worker.flac
 
 Sitemap: http://www.dartegnian.co/sitemap.xml
