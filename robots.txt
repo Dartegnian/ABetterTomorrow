@@ -6,7 +6,6 @@ Disallow:
 
 User-agent: *
 Disallow: /search
-Allow: /
 
 User-agent: Coworker
 Disallow: /brain/people/friends/
