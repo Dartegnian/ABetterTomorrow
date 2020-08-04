@@ -512,7 +512,7 @@ function jigeumeunSoNyeoShiDae()
 		"Vincent",
 		"It's a Golden Show",
 
-		/* other weeb stuff that I like. Some were given by my best friend Jean <3 */
+		/* other weeb stuff that I like. Some were given by my ex-best friend </3 */
 		"ME!ME!ME!",
 		"TeddyLoid - ME!ME!ME!",
 		"TeddyLoid — ME!ME!ME! (feat. daoko) Pt.1",
@@ -677,12 +677,6 @@ function jigeumeunSoNyeoShiDae()
 		"Do you know da wei",
 		"Dear Sunshine",
 		"Ch-ch-ch-ch-changes",
-		"Talking to Jean makes me happy",
-		"Jean makes me happy",
-		"Jean is my bestest friend in the world~",
-		"I'm happy to see Jean's smiling face every week",
-		"Jean helped me out of my depression",
-		"Thank you, Jean",
 		"You are my sunshine, my only sunshine",
 		"I miss SS151 :(",
 		"I shall return! ...to SS151!",
