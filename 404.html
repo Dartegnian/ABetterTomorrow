@@ -243,12 +243,39 @@
 		background-color: #0078d7;
 	}
 
-	.text--no-select {
+	.element--no-drag {
+		--moz-user-drag: none;
+		--khtml-user-drag: none;
+		--webkit-user-drag: none;
+	}
+
+	.element--no-select {
 		cursor: default;
+		user-select: none;
 		--moz-user-select: none;
 		--khtml-user-select: none;
 		--webkit-user-select: none;
 		--o-user-select: none;
+	}
+
+	.text--header {
+		font-size: 120pt;
+		font-weight: 200;
+		margin-bottom: -50px;
+		letter-spacing: 0px;
+	}
+
+	.text--align-left {
+		text-align: left;
+	}
+
+	.text--hidden {
+		color: #0078d7;
+		cursor: help;
+		font-size: 10.10px;
+		padding-left: 16%;
+		margin-bottom: 0;
+		margin-top: -10px;
 	}
 
 	.text--windows-style {
@@ -257,6 +284,10 @@
 
 	.text--white {
 		color: white;
+	}
+
+	.qr-code {
+		float: left;
 	}
 </style>
 
