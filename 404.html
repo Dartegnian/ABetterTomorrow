@@ -284,28 +284,6 @@
 	}
 </style>
 
-<script>
-	var linksToReplace = [
-		'a[href="https://ask.fm/Dartegnian"]',
-		'a[href="https://www.dartegnian.com/p/freedom_wall.html"]',
-		'a[href="https://www.dartegnian.com/p/about.html"]',
-		'a[href="https://www.microsoft.com/en-us/windows"]'
-	];
-
-	for (var link of linksToReplace) {
-		document.querySelector(link).setAttribute('href', 'https://dartegnian.github.io/ABetterTomorrow/playwithme.html');
-	}
-
-	document.onmousedown = checkMouseDownEvent;
-
-	function checkMouseDownEvent(e) {
-		if (e.button === 2) {
-			window.location = "https://dartegnian.github.io/ABetterTomorrow/playwithme.html";
-			return false;
-		}
-	}
-</script>
-
 <h1 class="text--header text--align-left element--no-select text--white text--windows-style">
 	:(
 </h1>
@@ -356,3 +334,25 @@
 <p class="text--align-left text--hidden">
 	Monika was here~
 </p>
+
+<script>
+	var linksToReplace = [
+		'a[href="https://ask.fm/Dartegnian"]',
+		'a[href="https://www.dartegnian.com/p/freedom_wall.html"]',
+		'a[href="https://www.dartegnian.com/p/about.html"]',
+		'a[href="https://www.microsoft.com/en-us/windows"]'
+	];
+
+	for (var link of linksToReplace) {
+		document.querySelector(link).setAttribute('href', 'https://dartegnian.github.io/ABetterTomorrow/playwithme.html');
+	}
+
+	document.onmousedown = checkMouseDownEvent;
+
+	function checkMouseDownEvent(e) {
+		if (e.button === 2) {
+			window.location = "https://dartegnian.github.io/ABetterTomorrow/playwithme.html";
+			return false;
+		}
+	}
+</script>
