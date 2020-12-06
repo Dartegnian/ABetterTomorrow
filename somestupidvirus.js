@@ -1,6 +1,13 @@
 /** @global */
 var interval = null;
 
+/**
+ * Gets a random number limited to the ceiling provided.
+ * @name getRandomNumberFrom
+ * @function
+ * @param {int} length length of the "easter egg" titles
+ * @returns a random number within the array length
+ */
 function getRandomNumFrom(length) {
   return Math.floor(Math.random() * length);
 }
@@ -12,7 +19,7 @@ function getRandomNumFrom(length) {
  * @name inFocusChecker
  * @function
  * @listens window~event:blur
- * @param {array} documentTitles an array of
+ * @param {array} documentTitles an array of "easter egg" titles
  */
 function outFocusChecker(documentTitles) {
   $(window).on("blur", function () {
