@@ -1,127 +1,65 @@
+/** @global */
+var interval = null;
+
 /**
- * Code "borrowed" from somewhere else :^)
- * Psssh… Nothin' Personnel… Kid…
- *
- * Okay, but seriously.
- * Even I think this is a little immature. Still,
- * I like references and easter eggs, so, um,
- * I squeezed this little thing here just for
- * laughs and stuff. Don't judge me.
- *
- * Every line in the message script below
- * contains (some sort of) meaning. Whether it's a
- * throwback to old stuff on the Internet, to recent
- * memes. Every line in here was meticulously typed
- * by hand to convey some meaning.
- *
- * Oh, and it's my personal site/blog anyway, I can do
- * whatever I want with it! But yeah, I think
- * this is a little immature, even for me.
- * This code contains a lot of my personality
- * and the things I like. So, uh, be careful?
- *
- * I also added some lines from my favorite songs here.
- *
- * This isn't really the place to explain my preference,
- * but I rarely get to talk about it.
- * The type of songs I like the most are the ones with
- * the most meaningful lyrics.
- * Of course, with the majority of these songs being
- * in a foreign language, there's NO WAY I could
- * possibly know of a song's meaning just by listening.
- * But that's not the point.
- * First, I like songs that have a good beat and rhythm.
- * But what really gets me, and makes the song linger more
- * in my head, is if the song has meaningful lyrics.
- * The best way I could think about it is through fishing.
- * An okay song, for me, is one that gets me with a good "hook."
- * But if the song fails to capture me with creative lyrics, I
- * eventually let go of it.
- * If I found out that the lyrics of the song mean well, in
- * addition to the lovely beat it has, then that will really
- * "reel me in."
- * At that point, the song just doesn't leave a lasting impression
- * on my playlist, but it now leaves a lasting impression on my heart.
- * And, in rare occasions, it helps me understand my actions, feelings,
- * and who I am a person as well.
- * That's why I love music!
- *
- * I hope my analogy was alright, ahaha! But yeah, here are
- * some songs that struck a chord with me.
- **/
+ * Gets a random number limited to the ceiling provided.
+ * @name getRandomNumberFrom
+ * @function
+ * @param {int} length length of the "easter egg" titles
+ * @returns a random number within the array length
+ */
+function getRandomNumFrom(length) {
+  return Math.floor(Math.random() * length);
+}
 
-function jigeumeunSoNyeoShiDae() {
-  var mistake = null;
-  var bluejeans = document.title;
-  var howgreatisyourlove = [
-    /* Monika - Your Reality */
-    "Every day, I imagine a future where I can be with you",
-    "In my hand is a pen that will write a poem of me and you",
-    "The ink flows down into the dark puddle",
-    "Just move your hand—write the way into his heart!",
-    "But in this world of infinite choices",
-    "What will it take just to find that special day?",
-    "Have I found everybody a fun assignment to do today?",
-    "When you're here, everything that we do is fun for them anyway",
-    "When I can't even read my own feelings",
-    "What good are words when a smile says it all?",
-    "And if this world won't write me an ending",
-    "What will it take just for me to have it all?",
-    "Does my pen only write bitter words for those who are dear to me?",
-    "Is it love if I take you, or is it love if I set you free?",
-    "How can I write love into reality?",
-    "If I can't hear the sound of your heartbeat",
-    "What do you call love in your reality?",
-    "And in your reality, if I don't know how to love you",
-    "I'll leave you be",
+/**
+ * Checks if the current tab is out of focus.
+ * Sets the document title to a randomly-picked
+ * "easter egg" title from the `string array` given.
+ * @name inFocusChecker
+ * @function
+ * @listens window~event:blur
+ * @param {array} documentTitles an array of "easter egg" titles
+ */
+function outFocusChecker(documentTitles) {
+  $(window).on("blur", function () {
+    document.title = documentTitles[getRandomNumFrom(documentTitles.length)];
 
-    /* Megurine Luka - Answer (アンサー) */
-    "After that, many years have passed, and the scene has dimmed",
-    "Time is cruel, then kind",
-    "The town I lived in with you, and the future we promised",
-    "Everything fades under the sunlight",
-    "The frozen clock hand begins to scratch away at our time",
-    "Despair, relief, and the washed away rain slowly fade away",
-    "That’s strange, even so, an important place deep in my chest aches",
-    "And your voice that calls my name, is as vivid as always",
-    "The thorns that should have disappeared are always piercing me",
-    "So I don’t forget",
-    "These feelings are a new chain, we will carry them forever",
-    "I don’t regret anything, I just suddenly think",
-    "of a world where everything went well",
-    "Like the calm after a storm, my broken heart has been healed",
-    "But, I wonder why, every time the seasons change, you call out",
-    "To this irreplaceable time, along with our memories",
-    "From now on, always, you probably will continue to live inside my heart",
-    "In that time to which we can’t return, our figures laugh without knowing pain",
-    "It’s sad, without a means, we are separated like this",
-    "But as long as these feelings are smoldered, we’ll always, always, just be friends",
-    "We’ll always, always, just be friends",
+    interval = setInterval(function () {
+      document.title = documentTitles[getRandomNumFrom(documentTitles.length)];
+    }, 3000);
+  });
+}
 
-    /* Hatsune Miku - Once Upon A Me */
-    "Yesterday's me in the mirror",
-    "Looks an awful lot like today's me",
-    "It's been sad, it's been distressing, it's been painful",
-    "But nobody ever listens to me",
-    "So my only friend is my face buried in my knees",
-    'Now as I head toward tomorrow, hands wave, yelling "see you later!"',
-    'At my back comes a "good luck!"',
-    'So I say bye-bye to the old me, the "once upon a me"',
-    "Let's get together for a long while, if you please",
-    "Now that I'm being a bit more positive",
-    "Can you see my heart glittering?",
-    "Was it sad?",
-    "Was it distressing?",
-    "It was painful but don't ever say nobody's listening",
-    "Hey it's all right! I'm always watching after your heart!",
-    "And then you're off running with a heart gleaming bright",
-    "Everyone supported me. So this time I'll give them my aid.",
-    "I'll chant the magic words: A buoy for the heart, an \"it's all right\"",
-    "Now as I head toward tomorrow with you",
-    "Toward a tomorrow where we hold hands",
-    "I'm hugged from behind as I hear countless voices",
-    'So I say bye-bye. To the old me, the "once upon a me"',
+/**
+ * Checks if the current tab is in focus.
+ * Clears the interval and resets the
+ * randomly-set easter egg document name
+ * back to the original.
+ * @name inFocusChecker
+ * @function
+ * @listens window~event:focus
+ * @param {string} documentTitle the original title of the web document
+ */
+function inFocusChecker(documentTitle) {
+  $(window).on("focus", function () {
+    if (interval) {
+      clearInterval(interval);
+      interval = null;
+    }
 
+    document.title = documentTitle;
+  });
+}
+/**
+ * Main method.
+ * @name main
+ * @function
+ * @author Dartegnian <root@dartegnian.com>
+ */
+function main() {
+  var documentTitle = document.title;
+  var documentTitles = [
     /* Girls' Generation - Divine */
     "I suppose I'm too fragile, my heart wavers so easily",
     "Looking for an answer that fades as the dawn breaks",
@@ -319,61 +257,6 @@ function jigeumeunSoNyeoShiDae() {
     "Привет",
     "Вместе мы сила",
     "В гостях хорошо, а дома лучше",
-
-    /* Doki Doki Literature Club */
-    "Doki Doki Literature Club",
-    "Doki! Doki!",
-    "JUST MONIKA",
-    "Just Monika",
-    "Just Monika.",
-    "❤ Just Monika ❤",
-    "MONIKA ❤",
-    "#TeamMonika",
-    "Monika is best girl",
-    "Dan Salvato is best girl",
-    "Team Protag sucks",
-    "Buffsuki",
-    "Sayo-nara",
-    "sayo-nara.mp3",
-    "no bulli sayori",
-    "Sayori deserves some love, too",
-    "Sayori Protection Squad",
-    "Sayori = Me",
-    "I ❤ Sayori",
-    "I can't believe how similar Sayori and I actually are",
-    "I feel sad for Sayori",
-    "I gave Yuri a pen :^)",
-    "Can you hear me?",
-    "Monika's Writing Tip of the Day!",
-    "Okay, everyone!",
-    "2029, everybody!",
-    "#Doki2029",
-    "#Doki2029 > #Kony2012",
-    "Monika is my waifu!",
-    "surprise!",
-    "Can't wait to (finally) marry Monika",
-    "2D Doki girls > 3D girls",
-    "Monika Route Mod! Woot!",
-    "Monika After Story Mod! Woot!",
-    "I want Monika to come out of my screen",
-    "MONIKA REAL LIFE MOD WHEN???",
-    "And thus, today marks the day I sold my soul for a cupcake",
-    "And thus, today marks the day I sold my soul to Monika and her irresistible smile",
-    "Hi, Monika here!",
-    "Amy Likes Spiders",
-    "% Get out of my head. Get out of my head.",
-    "Save Me",
-    "The Lady who Knows Everything",
-    "mdpnfbo,jrfp",
-    "Eagles Can Fly",
-    "Welcome to the Literature Club!",
-    "With everlasting love, Monika",
-    "This club..is full of incredibly cute girls!!",
-    "I just want to pull your skin open and crawl inside of you.",
-    "I love you so much that I even touch myself with the pen I stole from you.",
-    "I'll give myself paper cuts so your skin oil enters my bloodstream.",
-    "More importantly, I've endowed it with my scent.",
-    "Is it just me, or has Monika been acting a little off lately?",
 
     /* Azumanga Daioh */
     "I ❤ Osaka (Ayumu Kasuga)",
@@ -619,27 +502,6 @@ function jigeumeunSoNyeoShiDae() {
     "Air Jordan -> AIIIIIIRRR",
     "All-Terrain Venomoth -> AATTVVV",
 
-    /* Reddit */
-    "Connection lost. Please wait - attempting to reestablish",
-    "EDIT: Thanks for the gold, kind stranger!",
-    "!RedditSilver",
-    "!RedditGarlic",
-    "AskReddit = Ass Credit",
-    "/r/AskReddit = /r/WritingPrompts",
-    "/r/comedycemetery",
-    "/r/AdviceAnimals is cancer",
-    "/r/f7u12 is cancer",
-    "/r/fffffffuuuuuuuuuuuu is cancer",
-    "TIFU by writing this JavaScript code",
-    "TIL you can write a function that changes an inactive tab name with JavaScript",
-    "TL;DR Dart's new cringy/edgy teenage blog site",
-    "Don't get these references? Then you're OUT OF THE LOOP!",
-    "/r/place",
-    "place",
-    "r/placestart",
-    "/r/thebutton",
-    "the button",
-
     /* Girls' Generation/Sone */
     "Ebbali nomu",
     "Girls' Generation comeback ISRAEL!",
@@ -689,36 +551,8 @@ function jigeumeunSoNyeoShiDae() {
     "Annyeong!~",
   ];
 
-  /* !-- Meat on the bone — meat of the program --! */
-  // EXPLANATION TIME!!!
-  // check if the tab is out of focus
-  $(window).on("blur", function () {
-    // pick a random string from the array for the title
-    document.title =
-      howgreatisyourlove[Math.floor(Math.random() * howgreatisyourlove.length)];
-
-    // change the document title every 3 seconds
-    mistake = setInterval(function () {
-      document.title =
-        howgreatisyourlove[
-          Math.floor(Math.random() * howgreatisyourlove.length)
-        ];
-    }, 3000);
-  });
-
-  // check if the tab is in focus
-  $(window).on("focus", function () {
-    if (mistake) {
-      // clears the interval and stops the code
-      clearInterval(mistake);
-      mistake = null; // no mistake :^)
-    }
-
-    // reset document title to original
-    document.title = bluejeans;
-  });
+  outFocusChecker(documentTitles);
+  inFocusChecker(documentTitle);
 }
 
-// !-- init --!
-// IMMA FIRIN' MAH LAZER
-$(document.body).ready(jigeumeunSoNyeoShiDae());
+$(document.body).ready(main());
