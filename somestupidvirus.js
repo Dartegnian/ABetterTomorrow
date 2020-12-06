@@ -1,9 +1,11 @@
+var interval = null;
+
 function outFocusChecker(documentTitles) {
   $(window).on("blur", function () {
     document.title =
       documentTitles[Math.floor(Math.random() * documentTitles.length)];
 
-    intrvl = setInterval(function () {
+      interval = setInterval(function () {
       document.title =
         documentTitles[
           Math.floor(Math.random() * documentTitles.length)
@@ -14,9 +16,9 @@ function outFocusChecker(documentTitles) {
 
 function inFocusChecker(documentTitle) {
   $(window).on("focus", function () {
-    if (hasInterval) {
-      clearInterval(hasInterval);
-      hasInterval = null;
+    if (interval) {
+      clearInterval(interval);
+      interval = null;
     }
 
     document.title = documentTitle;
@@ -24,7 +26,6 @@ function inFocusChecker(documentTitle) {
 }
 
 function main() {
-  var interval = null;
   var originalDocumentTitle = document.title;
   var documentTitles = [
     /* Monika - Your Reality */
