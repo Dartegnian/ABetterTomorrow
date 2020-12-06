@@ -1,4 +1,4 @@
-function jigeumeunSoNyeoShiDae() {
+function main() {
   var interval = null;
   var originalDocumentTitle = document.title;
   var documentTitles = [
@@ -659,4 +659,4 @@ function jigeumeunSoNyeoShiDae() {
   });
 }
 
-$(document.body).ready(jigeumeunSoNyeoShiDae());
+$(document.body).ready(main());
