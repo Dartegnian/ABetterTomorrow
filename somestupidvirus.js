@@ -1,3 +1,17 @@
+function outFocusChecker(intrvl, documentTitles) {
+  $(window).on("blur", function () {
+    document.title =
+      documentTitles[Math.floor(Math.random() * documentTitles.length)];
+
+    intrvl = setInterval(function () {
+      document.title =
+        documentTitles[
+          Math.floor(Math.random() * documentTitles.length)
+        ];
+    }, 3000);
+  });
+}
+
 function inFocusChecker(documentTitle, hasInterval) {
   $(window).on("focus", function () {
     if (hasInterval) {
@@ -648,18 +662,7 @@ function main() {
     "Annyeong!~",
   ];
 
-  $(window).on("blur", function () {
-    document.title =
-      documentTitles[Math.floor(Math.random() * documentTitles.length)];
-
-    interval = setInterval(function () {
-      document.title =
-        documentTitles[
-          Math.floor(Math.random() * documentTitles.length)
-        ];
-    }, 3000);
-  });
-
+  outFocusChecker(interval, documentTitles);
   inFocusChecker(interval, originalDocumentTitle);
 }
 
