@@ -5,6 +5,15 @@ function getRandomNumFrom(length) {
   return Math.floor(Math.random() * length);
 }
 
+/**
+ * Checks if the current tab is out of focus.
+ * Sets the document title to a randomly-picked
+ * "easter egg" title from the `string array` given.
+ * @name inFocusChecker
+ * @function
+ * @listens window~event:blur
+ * @param {array} documentTitles an array of
+ */
 function outFocusChecker(documentTitles) {
   $(window).on("blur", function () {
     document.title = documentTitles[getRandomNumFrom(documentTitles.length)];
@@ -15,6 +24,16 @@ function outFocusChecker(documentTitles) {
   });
 }
 
+/**
+ * Checks if the current tab is in focus.
+ * Clears the interval and resets the
+ * randomly-set easter egg document name
+ * back to the original.
+ * @name inFocusChecker
+ * @function
+ * @listens window~event:focus
+ * @param {string} documentTitle the original title of the web document
+ */
 function inFocusChecker(documentTitle) {
   $(window).on("focus", function () {
     if (interval) {
