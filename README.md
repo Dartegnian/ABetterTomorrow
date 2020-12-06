@@ -8,15 +8,10 @@ This Git repository does not contain the Blogger source code nor the main XML th
 
 ## What's inside
 
-### Web browser console script
+### Inactive tab title changer
 File: `somestupidvirus.js`
 
-A script written in JavaScript that outputs messages from an array into any browser console.
-
-### Inactive tab title changer
-File: `definitelynotmaliciouscode.js`
-
-JavaScript code that detects if the tab of the website (in this case, my blog) is out of focus. Then, it selects a random title based on an array and cycles through all of the elements in the array every 5 seconds.
+JavaScript code that detects if the tab of the website (in this case, my blog) is out of focus. Then, it selects a random title based on an array and cycles through all of the elements in the array every 3 seconds.
 
 ### Monika
 File: `lilmonix3.js`
