@@ -1,3 +1,14 @@
+function inFocusChecker(documentTitle, hasInterval) {
+  $(window).on("focus", function () {
+    if (hasInterval) {
+      clearInterval(hasInterval);
+      hasInterval = null;
+    }
+
+    document.title = documentTitle;
+  });
+}
+
 function main() {
   var interval = null;
   var originalDocumentTitle = document.title;
@@ -649,14 +660,7 @@ function main() {
     }, 3000);
   });
 
-  $(window).on("focus", function () {
-    if (interval) {
-      clearInterval(interval);
-      interval = null;
-    }
-
-    document.title = originalDocumentTitle;
-  });
+  inFocusChecker(interval, originalDocumentTitle);
 }
 
 $(document.body).ready(main());
