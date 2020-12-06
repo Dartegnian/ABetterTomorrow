@@ -1,4 +1,4 @@
-function outFocusChecker(intrvl, documentTitles) {
+function outFocusChecker(documentTitles) {
   $(window).on("blur", function () {
     document.title =
       documentTitles[Math.floor(Math.random() * documentTitles.length)];
@@ -12,7 +12,7 @@ function outFocusChecker(intrvl, documentTitles) {
   });
 }
 
-function inFocusChecker(documentTitle, hasInterval) {
+function inFocusChecker(documentTitle) {
   $(window).on("focus", function () {
     if (hasInterval) {
       clearInterval(hasInterval);
@@ -662,8 +662,8 @@ function main() {
     "Annyeong!~",
   ];
 
-  outFocusChecker(interval, documentTitles);
-  inFocusChecker(interval, originalDocumentTitle);
+  outFocusChecker(documentTitles);
+  inFocusChecker(originalDocumentTitle);
 }
 
 $(document.body).ready(main());
