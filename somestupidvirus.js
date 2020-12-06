@@ -1,3 +1,4 @@
+/** @global */
 var interval = null;
 
 function getRandomNumFrom(length) {
@@ -24,7 +25,12 @@ function inFocusChecker(documentTitle) {
     document.title = documentTitle;
   });
 }
-
+/**
+ * Main method.
+ * @name main
+ * @function
+ * @author Dartegnian <root@dartegnian.com>
+ */
 function main() {
   var documentTitle = document.title;
   var documentTitles = [
