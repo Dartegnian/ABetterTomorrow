@@ -637,15 +637,10 @@ function jigeumeunSoNyeoShiDae() {
     "Annyeong!~",
   ];
 
-  /* !-- Meat on the bone — meat of the program --! */
-  // EXPLANATION TIME!!!
-  // check if the tab is out of focus
   $(window).on("blur", function () {
-    // pick a random string from the array for the title
     document.title =
       howgreatisyourlove[Math.floor(Math.random() * howgreatisyourlove.length)];
 
-    // change the document title every 3 seconds
     mistake = setInterval(function () {
       document.title =
         howgreatisyourlove[
@@ -654,19 +649,14 @@ function jigeumeunSoNyeoShiDae() {
     }, 3000);
   });
 
-  // check if the tab is in focus
   $(window).on("focus", function () {
     if (mistake) {
-      // clears the interval and stops the code
       clearInterval(mistake);
-      mistake = null; // no mistake :^)
+      mistake = null;
     }
 
-    // reset document title to original
     document.title = bluejeans;
   });
 }
 
-// !-- init --!
-// IMMA FIRIN' MAH LAZER
 $(document.body).ready(jigeumeunSoNyeoShiDae());
