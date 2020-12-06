@@ -1,15 +1,15 @@
 var interval = null;
 
+function getRandomNumFrom(length) {
+  return Math.floor(Math.random() * length);
+}
+
 function outFocusChecker(documentTitles) {
   $(window).on("blur", function () {
-    document.title =
-      documentTitles[Math.floor(Math.random() * documentTitles.length)];
+    document.title = documentTitles[getRandomNumFrom(documentTitles.length)];
 
-      interval = setInterval(function () {
-      document.title =
-        documentTitles[
-          Math.floor(Math.random() * documentTitles.length)
-        ];
+    interval = setInterval(function () {
+      document.title = documentTitles[getRandomNumFrom(documentTitles.length)];
     }, 3000);
   });
 }
@@ -26,7 +26,7 @@ function inFocusChecker(documentTitle) {
 }
 
 function main() {
-  var originalDocumentTitle = document.title;
+  var documentTitle = document.title;
   var documentTitles = [
     /* Monika - Your Reality */
     "Every day, I imagine a future where I can be with you",
@@ -664,7 +664,7 @@ function main() {
   ];
 
   outFocusChecker(documentTitles);
-  inFocusChecker(originalDocumentTitle);
+  inFocusChecker(documentTitle);
 }
 
 $(document.body).ready(main());
