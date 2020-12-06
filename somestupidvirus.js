@@ -549,27 +549,6 @@ function main() {
     "Air Jordan -> AIIIIIIRRR",
     "All-Terrain Venomoth -> AATTVVV",
 
-    /* Reddit */
-    "Connection lost. Please wait - attempting to reestablish",
-    "EDIT: Thanks for the gold, kind stranger!",
-    "!RedditSilver",
-    "!RedditGarlic",
-    "AskReddit = Ass Credit",
-    "/r/AskReddit = /r/WritingPrompts",
-    "/r/comedycemetery",
-    "/r/AdviceAnimals is cancer",
-    "/r/f7u12 is cancer",
-    "/r/fffffffuuuuuuuuuuuu is cancer",
-    "TIFU by writing this JavaScript code",
-    "TIL you can write a function that changes an inactive tab name with JavaScript",
-    "TL;DR Dart's new cringy/edgy teenage blog site",
-    "Don't get these references? Then you're OUT OF THE LOOP!",
-    "/r/place",
-    "place",
-    "r/placestart",
-    "/r/thebutton",
-    "the button",
-
     /* Girls' Generation/Sone */
     "Ebbali nomu",
     "Girls' Generation comeback ISRAEL!",
