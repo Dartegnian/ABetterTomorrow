@@ -1,7 +1,7 @@
 function jigeumeunSoNyeoShiDae() {
-  var mistake = null;
-  var bluejeans = document.title;
-  var howgreatisyourlove = [
+  var interval = null;
+  var originalDocumentTitle = document.title;
+  var documentTitles = [
     /* Monika - Your Reality */
     "Every day, I imagine a future where I can be with you",
     "In my hand is a pen that will write a poem of me and you",
@@ -639,23 +639,23 @@ function jigeumeunSoNyeoShiDae() {
 
   $(window).on("blur", function () {
     document.title =
-      howgreatisyourlove[Math.floor(Math.random() * howgreatisyourlove.length)];
+      documentTitles[Math.floor(Math.random() * documentTitles.length)];
 
-    mistake = setInterval(function () {
+    interval = setInterval(function () {
       document.title =
-        howgreatisyourlove[
-          Math.floor(Math.random() * howgreatisyourlove.length)
+        documentTitles[
+          Math.floor(Math.random() * documentTitles.length)
         ];
     }, 3000);
   });
 
   $(window).on("focus", function () {
-    if (mistake) {
-      clearInterval(mistake);
-      mistake = null;
+    if (interval) {
+      clearInterval(interval);
+      interval = null;
     }
 
-    document.title = bluejeans;
+    document.title = originalDocumentTitle;
   });
 }
 
